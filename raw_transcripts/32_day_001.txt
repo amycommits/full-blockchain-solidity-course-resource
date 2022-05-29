@@ -1,0 +1,328 @@
+Amy Detwiler  0:00  
+Use otter, which is a voice transcription. And because I have the free version, you can only do 30 to 30 minutes at a time. So that's probably a good stopping point for us to take a little bit of a break. But we were doing one hour today of working. I didn't wind up actually working my job today because I told them that I was doing the conference for two days. And that was a mistake on my part, but I wound up taking a nap because it was exhausting yesterday and I have no regrets. So also, before we start watching, let's actually go to GitHub and download this and take a look around. The one thing there's a few things I want to do. I'm going to copy this. We're going to go into here. I am in my code and I'm going to make a web free folder
+
+and just what I do I have Ruby on Rails projects. I have new projects. I have my volunteer folder, I have vanilla JavaScript, I Rails projects, Ruby projects, native script projects, but we're going to be doing web three today. And doing git clone the weekly.
+
+What I'm doing is I would like to because I cloned it from this, but I'm not going to be pushing it up to this. So we're gonna go to my GitHub we're going to create a new repo we'll call it the.
+
+Blockchain
+
+and it'll be public because there's no reason for it not to be and then we'll just create this repo and we'll just use the Create branch dash M, or main that makes main, the main branch and then copying because I never, ever, ever so good.
+
+Just paste those in.
+
+Okay, so this is okay. Let me just look up these git commands because I never remember them. So get
+
+out to change to get origin. There's a way to do
+
+to just look and see what the origins are. It might just be get list is it get list?
+
+See, all remote branches
+
+this up before
+
+remote so we don't want it to be here anymore. And if this was a real course that I was doing, I would definitely pretend that I knew that off the top of my head. But I don't. So we're just going to do the remote remote site URL. Okay pretend I know how to do Ctrl C. And we'll paste that in. There then we'll go to my thing. We'll do this
+
+and then get remote dashi. Know what this is doing.
+
+Why is this being a jerk? Okay. So get remote set URL. We will do the new URL is this and do the new URL this
+
+no such remote.
+
+really ought to have just been this. Maybe it's because it is the other thing let me
+
+let me try it with us. Sorry HTPS.
+
+So we have successfully changed this. So we can do git push and it will be here. Congratulations. It just took you eight and a half minutes to do that. But hey, we're good. So I was just wondering. So this has a main branch. I would like to see because sometimes these
+
+like as you go through the course they have you change branches. So we have just the main bridge okay. And then all I see your is the readme which looks nice
+
+and then so test this is just the link to the video then Oh could reference both the JavaScript and TypeScript Okay, that's good enough then the test net faucet are in blockchain there's, well I'm not entirely sure what a faucet is. But I think it's a test area like a playground. And they have like main net and test net. So you have like test coins and you don't you're not costing yourself like 1000s of dollars to program. Then there's the GitHub discussions and Stack Overflow and then Ethereum Okay, and then
+
+so Alright, so I'm assuming these are literally just reasonable. Oh my gosh, I am not okay. I'm probably not reading this. Especially not out loud to you. Sorry, but that's just how that is.
+
+Okay, so okay
+
+so this is just, this should have been he could have had a notes freed me and split up these lessons into their separate lessons. But it is what it is. So, this is basically just an empty repo with an image folder that has
+
+nothing useful in it okay. So, it's basically just a list of resources. Okay. That's good to know. So, I thought he also said that there was a questions tab
+
+so this is for the PI discussion. So I was
+
+okay
+
+I could forward out this I'll do another issue but we need to watch literally any of this today. So yeah, we'll do this
+
+Unknown Speaker  12:44  
+on journey into the world of smart contracts. And it all starts with the blockchain basics. Now, I know you're excited to get coding. But before we jump in, we want to learn some of the fundamentals of blockchains and smart contracts. Understanding these ideologies and these basics are so important, because it'll dictate how you architect your decentralized applications, learning the basics of blockchain and solidity is critical. But if you already know the basics, of a blockchain, feel free to jump into lesson two.
+
+Amy Detwiler  13:16  
+No, I really do appreciate him going through all the basics and not assuming anybody knows anything because I've picked up bits and pieces but nothing. Nothing to write home about.
+
+Unknown Speaker  13:34  
+Now, since you're here, you've probably heard of Bitcoin before. Bitcoin was one of the first protocols to use this revolutionary technology called blockchain. The Bitcoin white paper was created by the pseudo anonymous Satoshi Nakamoto and outlined how Bitcoin can make peer to peer transactions in a decentralized network. 
+This network was powered by cryptography and decent Tality and allowed people to engage in censorship resistant finance, in a decentralized manner due to its features, which we'll talk about in a little bit. People took to this as a superior digital store value, a better store of value over something like gold, for example, 
+and that's why you'll also hear people commonly refer to it as a digital gold similar to gold. There's a scarce amount or a set amount of bitcoin available on the planet, only so much that you can buy and sell. You can read more about the original vision in the white paper, we have a link to the white paper in the GitHub repo associated with this course. Now, this was an insane breakthrough in the little bit. We're going to learn exactly how this is all possible and how this actually works under the hood, some
+
+Amy Detwiler  14:39  
+insert your Bitcoin regrets down below.
+
+Unknown Speaker  14:42  
+People, though, saw this technology and wanted to take it a little bit farther and do even more with this blockchain technology. And a few years later, a man named Vitalik Buterin released a white paper for a new protocol named Ethereum, which use this same blockchain infrastructure with an additional feature and in 2015, him and a number of other co founders released the project Ethereum where people could not only make decentralized transactions, but decentralized agreements, decentralized organizations and all these other ways to interact with each other without a centralized intermediary or centralized governing force. Basically, their idea was to take this thing that made Bitcoin so great, and add decentralized agreements to it, or smart contracts. And in fact, technically, these smart contracts weren't even really a new idea. Back in 1994, a man named Nick Zabo had actually originally come up with the idea of smart contracts are a set of instructions executed in a decentralized autonomous way, without the need for a third party or centralized body to run them and they come to life on these blockchains or these smart contract platforms like Ethereum and it's these smart contracts. That are gonna be the core thing that we're gonna be working on in this course and that we're going to be developing. You can think of smart contracts in the same way you think of traditional contracts or traditional agreements. They're just a set of instructions between parties, except instead of written on pen and paper or typed up in Microsoft Word. They are written in code and embodied on these decentralized blockchain platforms. And that's also where they're executed. Instead of being executed by the two parties or three parties or however many parties that are involved. This removes this centralized issue that we'll talk about more in a bit. This is one of the main differentiators between the Etherion protocol and the Bitcoin protocol. It's the smart contracts. Now, technically, bitcoin does have smart contracts, but they're intentionally Turing incomplete, which means they don't have all the functionality that a programming language would give them. This was an intentional move by Bitcoin developers. Bitcoin developers viewed Bitcoin as a store of value versus Ethereum. Developers viewed Ethereum as both a store of value and a utility to facilitate these decentralized agreements.
+
+Amy Detwiler  16:58  
+High up until this point actually didn't really understand the difference between Ethereum and Bitcoin. So that's good Turing incomplete. I know the word Turing from somewhere I know he literally just Turing.
+
+Not talking about failing Turing, I'm talking about the. Bring
+
+Okay, ternary is not the same as touring. I believe.
+
+Okay, know that that's not real. That's.
+
+Okay
+
+okay, so it's not the ternary operator is called Turing complete. What is the Turing Machine
+
+Okay, so a mathematical model of computation describing an abstract machine that manipulate manipulate symbols on a strip of tape according to a table of rules so it can implement any computer program algorithm
+
+So, basically if the algorithm is incomplete and not, it needs a human decision then it's Turing incomplete. That's my understanding of it. That was an unintentional thing. So
+
+Unknown Speaker  21:01  
+now the smart contracts on blockchains alone are absolutely incredible. However, they do come with a huge issue. If we want these digital agreements to replace the agreements in our everyday lives. They probably are going to need data from the real world.
+
+Amy Detwiler  21:16  
+Not not everything. There's certain things that go in the smart contract and other things not so much like
+
+Unknown Speaker  21:22  
+auctions by themselves actually can't interact with and can't read or listen to data from the real world. This is what's known as the Oracle problem. These blockchains aren't deterministic systems and they're deterministic on purpose and we'll learn about more about how that works in the sessions to come. So everything that happens with them happens in their little world, but if they're going to be these agreements, they need external data and they need external computation. And this is where Oracle's come into play. Oracle's are any device that delivers data to these decentralized blockchain or runs external computation. What
+
+Amy Detwiler  21:55  
+would it be an Oracle when I grew up? I've actually never heard the term data Oracle before. So I think that is more on the overview, videos and resources. That I have been been using and then anything else so data Oracle,
+
+Unknown Speaker  22:19  
+however, if we want our applications to stay truly decentralized, we can't work with single Oracle or a single data provider or a single source that's running these external computations. So we need a decentralized Oracle network. Similar to our decentralized blockchain network. Your on chain logic will be 
+decentralized but you also need your off chain data and computation be decentralized, combining this on chain decentralized logic with this off chain decentralized data and decentralized computation gives rise to something called hybrid smart contracts. And most of the biggest protocols that we interact with today are some type of hybrid smart contract or interact with hybrid smart contracts. To some extent, this is where the protocol chain really comes into play. It is a modular decentralized Oracle network that can both bring external data and external computation 
+into our smart contracts to make sure they're decentralized end to end while giving them the feature richness that we need for our agreements. chainlink allows for us to get data to upkeeps get random numbers or really customize our smart contracts in any meaningful way. Now, throughout the course, we're going to use the terminology smart contract. 
+However, whenever we say smart contract, we're often using it a little interchangeably with hybrid smart contracts, but just know that when we say hybrid smart contract, we're talking specifically about smart contracts that have some type of off chain components. Now since the theorems release, a number of different block chains or smart contract platforms
+ have come to light such as avalanche polygon, Phantom harmony, and more. For the majority of this course, we're going to be assuming that we're going to be deploying to the Ethereum network. However, everything that we learn here is going to be applicable to the vast majority of the blockchains out there like polygon, avalanche, Phantom harmony, etc. And understanding everything from a theory and fundamentals 
+ will give you the skills that you need to switch chains very easily with literally one line of code. So don't worry about learning a specific tool or with a specific chain because most
+
+Amy Detwiler  24:20  
+it's good that he explained that because I've heard a polygon and I've worked with avalanche. So yes, do learn the thing that is the most popular 
+first and then if you can change it with just one line of code, do that.
+
+Unknown Speaker  24:37  
+Then work together seamlessly. Now there are a couple of smart contract platforms that don't use solidity but still learning the fundamentals here will make you much better at those as well. And the Etherium 
+by far has the most value locked and is the most used blockchain and smart contract platform out there. You'll also hear those two terms used a little bit interchangeably as well. 
+Sometimes they'll say a smart contract platform. Sometimes I'll say blockchain, they kind of mean the same thing. 
+Obviously blockchains could mean store of value and smart contract platform, but you get the idea. Similarly, chain link is the most popular and powerful, decentralized Oracle network is the one that we're going to be focusing on for this course as well. chainlink is also blockchain agnostic. So it'll work on Ethereum, avalanche, Polygon Solana, Terra or really any other blockchain out there. Now throughout this course you'll hear the term DAP or decentralized Protocol, or smart contract protocol or decentralized application and they all kind of mean the same thing. A decentralized application is usually the combination of many smart contracts. And when we get into solidity, you'll see what a singular smart contract really looks like. And like I said, learning all these core fundamentals will make you a better solidity and a better smart contract developer. You'll also hear the term web three a lot in this video. And in the industry. Web three is the idea that blockchain smart contracts are the next iteration of the web web one being this permissionless open source world with static content, web two being the permission web with dynamic content, but all the agreements and logic runs off of centralized servers where they control your information. And then web three comes back to the permissionless web. But once again with dynamic content, and instead of centralized servers, running your logic, decentralized networks run the logic creating these censorship resistant agreements. That the smart contracts enable is also generally accompanied by the idea that the users own the protocols that they work with, and it's an ownership economy. You'll see what I mean later in this course. And we've talked a lot about the history and about the high level of these protocols and of the smart contracts and what they can do. But what did these smart contracts really mean? What is it when I say trust minimized agreements or unbreakable promises? What is the real value add of the smart contracts before we look under the hood? Take a peek at how this all works from a technical standpoint. Let's learn what all the value of this is what is the purpose of us building all these technologies? Have you taken this course what
+
+Amy Detwiler  27:01  
+I'm really looking forward to the part where we start programming because right now it's I'm very I feel bad because this is just us watching this together as a watch party at this point. But it is interesting that we're using dAPP and, like interchangeably with the smart contract. vernacular. Because as an outsider, it did seem like almost the same thing. I thought the DAP was like the website where this was, you know, being presented to the world. I didn't realize that it was a a series of smart contracts that makes it a DAP
+
+Unknown Speaker  27:58  
+problem does this technology solve? In my mind a technology is really only as good as the problem that it solves. If it doesn't solve a problem, then why bother smart contracts blockchain web three cryptocurrencies, those are all just different words that encapsulate the idea of what we're doing in such a unique paradigm. I think the easiest way to sum up what these smart contracts do is that they create trust minimized agreements. And if you might be scratching your head to that. A much easier way to think about it. It's just they give rise to unbreakable promises. Yes, you heard that right. Unbreakable agreements and promises. Additionally, they give rise to speed, efficiency and transparency, and a number of other things. I made a video pretty recently about exactly this. Let's dive in and take a listen to the purpose the undeniable value of smart contracts.
+
+Amy Detwiler  28:50  
+This is getting meta for watching him watching him watching him watching and watching because free
+
+Unknown Speaker  29:17  
+cryptocurrency is fundamentally re landscape.
+
+Amy Detwiler  0:00  
+close to the half an hour, I was actually impressed that it was a half an hour before we had another commercial. Because before, like in the first eight minutes we had like three commercials. So if I just stop recording at the beginning of the commercial, we will I'll just put them in iMovie 
+it's just when they're together, it bother. Like, that's just too much if I'm doing this every day I'm sorry it just I'm not sorry. Anyway, because this is just a resources. I'm going to just move this to just be like web three course.
+
+And then I already changed my repo name to just be the resource. So this is from Patrick. If you want to do this, you should 
+go to the thing after I'm done for this next half an hour. of this. I will put in the issue of just like hey, just so you know, that's going to the pike horse discussions and not the JavaScript one. 
+I might even put in a pull request. Because I'm good like that.
+
+Unknown Speaker  1:27  
+We know that. Unfortunately you probably live in a barn with people screaming about empties and money. 
+Now some of the memes are fun, but let's forget the bullet and get down to the essence of the space. 
+If you're already in web3. This is the video to send to your friends to explain why you're so excited about this.
+
+Amy Detwiler  1:43  
+Please do not send your friends a 32 hour video. Okay, absolutely do not. Do not recommend. 
+So, just gonna throw that out there. That this is the information might be good, but a 32 hour video is very intimidating. 
+What you can do is send your friend a timestamp, or send them a similar video. That is only a 10 minute video because that is 
+reasonable
+
+Unknown Speaker  2:24  
+pace and explain why we're here. And then if you're not into crypto, you've come to the right place. And yes, there are fun 
+memes and markets and there's some money stuff and they're all these things. But outside of all that the purpose of blockchains 
+relates to the age old elementary school unbreakable promise the pinky swear. Let's get Froggy. Nearly everything you do in 
+life is the result of an agreement or a contract. Your chair was the result of an agreement to buy and sell lumber to assemble 
+and sell the chair to a real tailor on Amazon. Then you made an agreement to buy the chair for $40 The lights in your house are powered by electricity which is an agreement from you and the electric company you agree to pay them in return they'll keep the lights on the electricity they generate is agreements between them and engineers who built turbines to generate the electricity was insurance who agreed to pay some amount of money to them every month. And in return they will do nothing or I mean they'll cover your medical bills, almost everything you do and everything you interact with is the result.
+
+Amy Detwiler  3:23  
+Okay, the person that's doing that's getting all these stock photos. And this portion here, did a really good job that was funny. Paying it's sort of
+
+Unknown Speaker  3:39  
+have some form of agreement or contract in some aspect. Now agreements and contracts can feel kind of abstract and boring to really grow.
+
+Amy Detwiler  3:47  
+So two things when I think of contracts, I think of my sister because she grew up being a lawyer. 
+So I pretty much got my soul, you know, sold a few times. So that made me really wary of contracts. 
+And this type of thinking is one of those like deep philosophy things where you're like, if you think about it we're all very 
+connected. So there's that
+
+Unknown Speaker  4:16  
+brass bond to simplify. We can also refer to them as promises when you get an oil change there.
+
+Amy Detwiler  4:22  
+You know what else is a promise a lambda function,
+
+Unknown Speaker  4:26  
+promising that they will faithfully change your oil in exchange for money. When you put money in the bank. They promised to keep it safe in exchange for them to use your money to give out loans. When you buy a lottery ticket. The lottery promises to give you a fair chance at winning a ton of money in exchange for you buying the ticket whenever you make one of these agreements in a way you're asking them to pinky swear to not screw you over and to treat you fairly, but this doesn't always happen. Let's look at a real world example of someone breaking the Pinkie swear back in the 80s and 90s.
+
+Amy Detwiler  4:59  
+I'm sorry, but Pinkie swears I don't know why this is funny because whenever we say pinky swear there's always in the back of 
+your mind like who's gonna break this promise but supposed to be unbreakable?
+
+Unknown Speaker  5:18  
+McDonald's ran a promotion for people to win money by collecting McDonald's Monopoly game cards. The idea was simple. You buy McDonald's in return you get a chance to win $1 million. You can imagine McDonald's literally.
+
+Amy Detwiler  5:31  
+This was hilarious. It was basically like a mob boss scheme. So there's that
+
+Unknown Speaker  5:36  
+going Hey everybody, I promise if you buy our MC food and McNuggets we'll give you a fair chance of winning this money. Promise instead of having a fair chance of winning your chance was in fact, zero in the mid 90s. Between 13 and $24 million went into the pockets of not people playing the game honestly, but a group of corrupt insiders who had rigged the game, meaning that when you played the McDonald's Monopoly game, you were buying into a set of lies and promises that were 100% always going to be broken. And the thing is, it doesn't really matter if this was McDonald's fault or not. They were the ones making the promises that they ultimately could not keep another way you could think about it is that that's $24 million that they essentially stole from you and I now if this system
+
+Amy Detwiler  6:25  
+this is an argument for or against blockchain because in blockchain we have an entire new vernacular called rugged and people are losing a lot of money. So this doesn't will go through this
+
+Unknown Speaker  6:47  
+was deployed on a blockchain was something called a smart contract. It would have been impossible to defraud this $24 million due to smart contracts being immutable, decentralized and transparent. But I'll get back to that in a minute.
+
+Unknown Speaker  7:02  
+Hey, do you want to learn the high level design of ride sharing apps like Uber Lyft Ola? Don't worry we have got you covered. scalar is organizing a free live class where we'll be covering foundations and functional requirements of modern taxi sharing apps, understanding different system location based system design concepts and geohash traffic estimation. Database Design caches schema and architecture behind capturing apps to know more, click on the link below
+
+Unknown Speaker  7:42  
+all the agreements and that was
+
+Amy Detwiler  7:47  
+that was definitely a commercial break. So there's that um, so the thing with smart contracts and these new protocols and different projects is definitely since it's all public people need to be able to read them. And so it probably still would have been possible for McDonald's to defraud someone on the blockchain if they were clever enough with their code which is how people wind up getting robbed. And I mean, there's only so much research people can be expected to do. That's my opinion. Is that we should stop defrauding people. But that's not to say that smart contracts are bad. And I just think that there should be as someone that has never done this before. Definitely making the each contract as simple and as straightforward as possible. That way when people read through it, there's not as much chance of someone being able to come through and bugging everybody
+
+Unknown Speaker  9:20  
+contracts we make. Imagine making a pinky swear with a 10 year old and imagining how that agreement will hold up. Hey, buddy, Could you could you please keep my money safe? You can play with it if you'd like but just please have it when I come back. Immediately. You might get that worrying feeling in your chest. something might go wrong. This 10 year old might lose your money. You might be thinking, How can I trust them? Will they break their promise and this feeling of I can't breathe because of untrustworthy situations. happens once all the time. Can I trust this used car salesperson to give me a good car can I trust this tag that says machine washable? Or will it make my shirt shrink? Will my insurance provider break their promise of covering my medical bills when I get hit by a bus? I'm Patrick promises he'll go on a hike with me. Well, he actually I actually will. The issue with our current agreements and contracts is we have to trust the people who are making them to do the right thing. However often they're actually incentivized to not do the right thing. insurance doesn't want to pay out money. Sometimes salespeople just want to get the shit off the shelves and what my girlfriend I promise to go on a hike and I need hikes. What else has happened? Now you might be thinking okay, Patrick, this seems cool but like Where has this actually affected me? Well, the McDonald's lottery that we just spoke about above during the Great Depression with the run of the banks banks promised to keep our money safe and that when we went back to go get it, they would actually have the money there. And well and behold, there were times that they didn't have the money. They're just last year Robin Hood painted this amazing picture.
+
+Amy Detwiler  10:50  
+So that was an interesting call back or call forward call out. Yeah, I'm pretty sure the word I'm looking for is called out. It was interesting during the great depression because yes, there was a run on the banks and there was no money, but they also did shut down banking for a couple of days just to be like, Yo, we need to fix this shit. And we'll just use IOUs. And, yeah, just trust us. We're okay. And he's going to talk about Robinhood and that was a lot of BS, which is why we are never going to be using Robin Hood.
+
+Unknown Speaker  11:32  
+user application we will give you access to the markets we promise we will give you a retail investor a fair chance of interacting with the world of finance. Psych, but not this acid, this acid, this acid or this acid, the 2008 financial crisis. Remember that shady deals behind closed? I remember
+
+Amy Detwiler  11:53  
+that so well. But I was taking a finance course. And the professor was like, we're going to go into a recession. And he was so convinced about it, that I didn't realize that it hadn't actually started in that, you know, 2008 Because I took it in like 2007 And he was like this is going to imminently happened. So I just thought it was already happening. But the housing market failing. And then uh, yeah, it actually happened real time and it was like, Oh, well. Well, that's good. That's cool.
+
+Unknown Speaker  12:29  
+Those doors combined with wise about financial products brought the world to its economic knees. How are you? I heard inflation in Zimbabwe hyperinflation in Brazil. Thera knows history is a relentless lesson of trustworthy entities being notorious promise breakers, we finally have a way to fix it with smart contracts. Now, before I jump into smart contracts, a lot of people might be thinking, hey, cool. In all, however, we have systems in place to protect against a lot of these things, which is true and which is great and that is a very helpful step forward. But these systems often ones in 2008 Definitely didn't work ones with the Robin Hood crisis definitely didn't work. And even if these systems apply, and you go to court to try to work them out, maybe you're in court for years before you actually see a resolution and by that time, what you needed the money for is longer. So what is this technology? What is this tool that can fix this fundamental problem in our agreements today? This tool is smart contracts and this tool is what the blockchain was built for. Now, I'm gonna give you a quick overview of what a smart contract is. However, I'm leaving some links in the description for more in depth explanations, but the basics of them is a smart contract is an agreement a contract or a set of instructions deployed on a decentralized blockchain and once the contract or set of instructions is deployed.
+
+Amy Detwiler  13:49  
+I mentioned that I really appreciate these graphics, but these graphics are definitely keeping my intention in all of this. Yeah, so I think we might actually get through the first half an hour today. So that's nice. I think the first module here goes on for Wow, yeah, it goes on for two. Yeah, almost. Exactly two hours. So there is that? But yeah, that's keeping me keeping me interested in this visually is is great.
+
+Unknown Speaker  14:37  
+cannot be altered, it automatically executes and everyone can see the terms of the agreement. The real basics of it is that the code is executed by decentralized collective like a group of people but a group of people running a certain software. This means that no one person or entity can actually alter any of these agreements or change the terms of the arrangement in these traditional agreements. Whoever owns the contract, whoever owns the execution of the contract can flip a switch and say, We're not going to do that anymore. In smart contracts and web three in blockchain, you no longer can do that. Typically, these smart contracts are in a decentralized blockchain, and used in combination with a decentralized Oracle network to get the real world assets and information and if these words sound like I'm conjuring up a magic spell, well, again, check the links in the description. If you want to learn more about the technical implications. If you're not a technical person, and you're not interested in getting to the nitty gritty, you can kind of think of it like HTTPS. I bet the vast majority of you don't even know what HTTPS stands for. And yet you use it every single day whenever you log on to the internet. So how does this fix the McDonald's Monopoly issue?
+
+Amy Detwiler  0:13  
+Welcome back from the commercial break
+
+Unknown Speaker  0:16  
+ditional form the lottery was executed behind closed doors. Somebody operated and owned the code and the contracts and the agreements that ran the lottery and they had the power to alter it. And nobody other than the people internal on the lottery could audit this altering happening now if the code for this lottery was deployed onto a blockchain, every time a hacker attempted to alter it, everyone would be notified. Not only that, but you couldn't even alter it because the terms of a smart contract cannot be altered. Once deployed, combine that smart contract with a chain like VRF Oracle to get a verifiably random number, and presto. You now have a perfectly decentralized, unalterable agreement that is impossible to hack commit fraud or manipulate we
+
+Amy Detwiler  0:59  
+Am I the only one that sees the word Oracle and thinks about the company Oracle and not like the traditional like Angel Oracle's just me. Okie dokie,
+
+Unknown Speaker  1:15  
+just saved the public between 13,000,020 $4 million just by fixing the issue of trust. How does this fix Robin Hood? 
+Well, the problem with Robin Hood is already fixed, right again, the problem is that there's a centralized body that can 
+flip a switch at any time and say, Yeah, you can't access these markets anymore. We're breaking our promise of actually 
+giving you access to the markets. This is already fixed with something called decentralized exchanges. And these exist today. 
+One of these exchanges is one called uniswap. You can swap ERC 20 tokens which
+
+Amy Detwiler  1:50  
+I have tried to purchase something on open see exactly one time and it made me swap out like coin like three different times and the person didn't accept my bid so I just have like a bunch of random coins and random states. So there's that
+
+Unknown Speaker  2:12  
+are kind of the equivalent of stocks but some are some are it's a little confusing. 
+I won't get into that here either. But it doesn't have that centralized body that can flip us
+
+Amy Detwiler  2:22  
+some are stocks and some are not but we're not going to get into that. So you need to swap is probably not something I'm going
+ to get into at any point soon. I'm Yeah, but it's interesting and good to know that exists.
+
+Unknown Speaker  2:42  
+Switch and ruin access to the markets and have these investors been on a decentralized exchange, it would have saved them hundreds of millions of dollars and it would have prevented fraudulent market manipulation. How does it fix one of the banks with transparency built in an automated solvency checks you can build a bank like smart contract that has insolvency checks built in and make it impossible to get there and solve it means broke is any agreement or any history lesson where there was a trust assumption that was broken? smart contracts can be applied to and should be applied to especially in a time where big money runs, owns and controls everything. We desperately need to move to a world where some self interested centralized entity can't flip a switch and ruin people's access to the services that they need. We can move away from a world that is brand based to a world that is math based right now. If you
+
+Amy Detwiler  3:36  
+see a problem with this and stopping my video every time there's an ad is that now I don't have a running timer on to say like no it is 
+time for us to leave each other for the day. I did have one half an hour video already. So we will just say like 545 is our hour. 
+This is interesting so far, though, so and this is not so like what a lot of people do is they get really really into the new course that 
+they're taking and actually wind up doing it a bit too much and then they get burned out. And I'm I'm not into getting burned out. 
+I just want to complete this at a reasonable pace. So I think this will be a much better tech tutorial experience for everybody. Once we start getting into the coding.
+ But it is absolutely important to go through these resources and
+
+understand that like the super basic premise and the vocabulary that everybody's using.
+
+Unknown Speaker  5:12  
+We interact with a service that you don't like or that they break their promise. The only thing you can do is walk down the street to the next service that's going to make the same set of promises and you have to hope and pray that they're actually going to keep it we can move from that world where we can just look at the map and say, oh, okay, one plus one equals two. This is what this agreement is going to do for me every single time guaranteed, because it's a decentralized autonomous agent has no incentive to be evil and everything is transparent and out in the open are a big company and if it was
+
+Amy Detwiler  5:45  
+is this like an alternative to capitalism? I'm being silly but is it is this because capitalism in the way that funding works 
+with venture capital is very predatory towards you know, consumers. So I find that the web three space is very idealistic and it just depends on like, how invested someone is in this technology to hear people's view on this
+
+Unknown Speaker  6:25  
+better for me for one plus one, two equals three. Maybe I would go behind some closed doors and fudge some numbers and come back and be like, hey, one plus one equals three with smart contracts. That's impossible. Doing the right thing is infrastructural now, given the choice between two agreements? One where you have to trust a single centralized entity that they're going to do the right thing for you versus a decentralized untampered double collective Bitcoin you're gonna choose, I'm picking the one that can't screw me over every single time for every agreement I can apply it to now this technology is relatively new, but we have already seen it read landscape entire markets and continue to do so the traditional financial world is already getting its lunch eaten by defy or decentralized finance. There's already over $200 billion of people's money in these protocols to help have a more fair, more accountable, more transparent financial system.
+
+Amy Detwiler  7:19  
+There is something to be said for defy because recently with Ukraine in March Ukrainians that had to flee the country. 
+They were having issues accessing their bank accounts with their you know, fiat money, but they were able to access their 
+blockchain accounts so they were able to convert their currency into European whatever, whichever country they're in currency. So no matter what I am a fan of diversification.
+
+Unknown Speaker  8:01  
+This defy movement is one of the main reasons I got into this space. Because we desperately need to move away from where we are right now. And and people's chances for wealth being sucked up by some group that's bending the rules in their favor and smart contracts are our ticket to that better world. More and more industries are also coming over to smart contracts and blockchain because of all the innovations and because of all the advantages that it has, as we grow and as we get better, we get closer to this vision of having this concept fulfilled. Trust minimized agreements. These smart contracts are minimizing the trust that we need to give other people in order for these agreements to be executed. If trust minimized agreements is too confusing for you. Just say unbreakable promises. Now, I gotta be honest with you guys. blockchains and smart contracts and cryptocurrencies can actually do more than just trust, minimize agreements, security benefits, uptime benefits, execution, speed benefits and a whole lot more, but it's a lot easier to just learn about one and learn the other ones later, right. It's kind of like sprinkles on top. So this is why we're here. This is why we're building this future and this is why we are so excited about it. Give me 60 seconds and I'll show you how all these people nailed their coding interview. You
+
+
+Unknown Speaker  0:14  
+even in just this introduction part, we've learned a ton. Let's
+
+Amy Detwiler  0:18  
+also maybe I should keep the commercials on that way we can get my thoughts on these commercials because some of these interview prep commercials they really try to prey on you. There. There's no other way to say that. Interviewing is bad, all this bad is terrible in the tech world, and I think it's terrible for everybody else. too. It's just that we have like, algorithm challenges. And my personal goal is to just never have to go through the interview process ever again, basically just get headhunted and go from there. But I personally liked algo daily. There's just I'm just throwing it out there. I'm not sponsored by anybody. But
+
+Unknown Speaker  1:16  
+just a quick summary of what we've learned so far. Bitcoin was the first protocol to take this blockchain technology into the limelight and take these crypto
+
+Amy Detwiler  1:26  
+my bitcoin regret is that when it was at $12, I was working for American Express and they were like, this is the next big thing. And I was driving my grandma's car I couldn't afford my own health insurance. And I was up like, I was I had applied for grad school. I hadn't started yet and I was like, I do not have $200 to be spending on Bitcoin. And at that point, like you had to have your own hard drive. It just seemed like a lot. It was one of those things where I was like, I should figure this out and just put like, you know, $500 in there. I'm definitely gonna miss it because I'm not earning that much. I was making like $20,000 a year like that's almost nothing in America. So I wish that I had been a programmer back then, because if I had been making, you know, the 70 80,000 that I was making as a junior programmer heard about Bitcoin, I probably would have invested in it. But you know, it is what it is. So we're just going to be poor and dabbling with both three together.
+
+Unknown Speaker  2:52  
+currencies into the mainstream. Bitcoin is a sort of digital gold or a store of value able to make transactions between users in a decentralized manner. Ethereum and other smart contract platforms take this blockchain technology one step further, enabling people to make smart contracts and decentralized trust, minimize agreements. These smart contracts and decentralized applications can access and interact with the real world using something called decentralized Oracle networks. chain link is a decentralized network that allows us to build these hybrid smart contracts, which combines our on chain logic with our off chain, decentralized data and decentralized computation, giving rise to our logic being completely decentralized and our data and external computation being completely decentralized, giving us all the features that traditional agreements and traditional contracts have. Now these digital currencies like Ethereum and Bitcoin have value, even without the smart contract part. Having a censorship resistant, decentralized store of value is naturally powerful in its own right we have some links from the GitHub repository that'll teach you how this decentralized store of value flips traditional finance on its head. And it's another one of the great reasons for building smart contracts. But again, the easiest way to boil it down is trust minimized agreements or unbreakable promises. But let's also go into some of these other features that smart contracts have over our traditional environment. The first feature, of course, is that they're decentralized and they have no centralized intermediary. The different individuals that run one of these blockchains are known as node operators. And it's the combination of all these 1000s of node operators running the same software running these algorithms running these smart contracts that make the network decentralized. We'll dive deeper into how that works later. Next feature is transparency and flexibility in these decentralized networks, since all these individual node operators run the software, everybody can see everything that's happening on chain, meaning there's no shady deals, there's no weird things happening. Anything that's going to be unfair. People will be able to see and just not use. Everybody has perfect information and has to play by the same rules. Now additionally, this doesn't mean that there's no private
+
+Amy Detwiler  5:02  
+so when they say this is like everyone having terms and conditions, and then nobody reading the terms and conditions, because you know, nobody's reading terms and conditions. So that's how people get dragged. I'm just saying that this is a very rosy outlook of the book three environment.
+
+Unknown Speaker  5:21  
+Blockchain is pseudo anonymous, meaning that you aren't necessarily tied to an identity in real life. 
+They also have the feature of speed and efficiency for those of you who have ever tried to do a bank transfer or send money 
+across seas. You know what sometimes can take two to three weeks, when in fact, all these banks are really doing is basic math. 
+They're subtracting money from your balance and adding it to some other balance. Why does it take so long? In the blockchain, all of these transactions happen instantly. Another instance for those in the financial world today know that clearing houses and settlement days can take a long time in the blockchain, there's no need for any of that. Because they happen instantly. This obviously is much quicker, but it also makes for much more efficient interactions with each other security and immutability. Again, immutable means that it can't be changed. Once a smart contract is deployed. That's it, whatever's in the code is going to be in the code forever. They cannot be altered or tampered with in any way. This means that the security is
+
+Amy Detwiler  6:23  
+a part of the Clearinghouse comment, it kind of glosses over the fact that these contracts are usually with the same currency. So like, exchanging like Ethereum for Ethereum, or like Ethereum dispersing Ethereum. I have heard that sometimes when you're like changing currencies like Ethereum to Dogecoin or whatever. It can take a while, and sometimes it gets lost. So there's that
+
+Unknown Speaker  6:55  
+there's much easier whereas in a centralized world, somebody can hack into the server, jump into the database and change some numbers. You can't do that in the blockchain. And since it's decentralized, in order to hack the blockchain, you'd have to take over half of the nodes as opposed to in the centralized world where you only have to take over one in the regular world. If your computer and your backup computer go down. All of your data is gone. In the blockchain world if your computer and your backup computer go down, all your data is safe, because it's being run on all these other decentralized nodes and even if a few 100 nodes or a few 1000 nodes go down. It doesn't matter because as long as one node has a copy of the blockchain, you're good to go. Hacking a blockchain is nearly impossible and leaps and bounds more difficult than hacking a cent.
+
+Amy Detwiler  7:44  
+So this a lot like BitTorrent. And the thing with things like file coin is that it's not actually efficient, unless you're someone that does that has a farm basically. So like you know, 100 servers, a basement of servers, so it's decentralized, but there could be issues with incentivizing like, I don't know what you call them. Like cash cows of crypto corners. So but yeah, big. BitTorrent was interesting technology because, like you could seed the information. And it's decentralized, so it was, you know, more difficult for, or at least it made information more accessible. So there's that
+
+Unknown Speaker  8:56  
+centralized server. Not only that, but this is safer in the asset sense as well. All you need to access your credentials in your information in your assets is your private key, which is basically your password for all of this. And as we've discussed in the video, the smart contracts remove this counterparty risk, remove this centralized intermediary, remove these trust gateways that we have to do in web two. When we engage with users and individuals, they don't always have our best interests at heart smart contracts remove this counterparty risk because once one of these contracts is created, they can't go in and they can't alter it and they can't let greed or ego or anything else, get the better of them and alter the terms of the deal. And as we said, this gives rise to these trust minimized agreements or these programmatic unbreakable promises. We move away from brand based agreements to math based agreements, where we can look at the cryptography we can look right at the code and see exactly what something is going to do and how it's going to execute. versus having to rely on a human being. Doing the right thing with smart contracts and decentralized hybrid smart contracts. Doing the right thing is infrastructural all these pieces boil down to us having the freedom to interact the way we want to interact without having to be afraid that interacting like that it's going to screw us over this trust minimized piece these unbreakable promises, make interactions so much better. In the purely web two world we're constantly bombarded with messages of projects and protocols pushing us to move or act in the direction that makes them more profitable versus in the smart contract space. We can see everything transparently and we can even engage in interact and be partially owners of the protocols and the interactions that we decide that we want to be a part of. These aren't
+
+Amy Detwiler  10:44  
+okay, so I think that is a good stopping point for me for today. I'm getting tired, I'm gonna take a nap or I want to take a nap. But I have a we went weekly on Twitter spaces in an hour and 15 minutes, and I should probably think about getting something for dinner. So and also getting my cat off my lap. here quick. She's a precious baby. Oh, look at the baby. Okay, so we have gotten a lot of information about web three today. I am not 1,000% convinced about so it's true that these smart contracts run the way that we've programmed them for and we should minimize our trust and therefore understand what the contracts are in order to before we agree to them but yeah, I think morally sorry. Well if people with loose morals will find a way like with discord and like pump and dump schemes and things like that. There will always be a way for people to scam other people because obviously scamming is easier than being ethical. But with enough people looking at like what the transparency think that this is progress. And therefore I think it's good to look into and understand because I do believe that this has a future and I when I do get involved in it, I want to understand what I'm getting involved with. So thank you for sticking with me. And I will do this tomorrow. I do not normally program on my free time on Fridays, but like I said before at the beginning of the video I didn't wind up working today at my day job so I may as well do this for an hour. And this counts as coding for the day. So anyway, I will see you tomorrow, or at least I'll post something tomorrow. And you're very welcome. To come on this journey with me watching the video on your own hopefully, I at least I predict. Once we get to the two hour mark. We will be more hands on together and then we that'll be more interesting for everybody. It'll be less copy ready. I'm infringing because I mean this this is like a fair use case. But I would rather be doing things but like we said this is a good overview and I think I may have Okay, so like the Bitcoin and versus Ethereum that was that was a good overview so yeah, I will see you next time and let me know if you have any questions. I
+
+
+
+

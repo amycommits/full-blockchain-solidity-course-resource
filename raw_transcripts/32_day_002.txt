@@ -1,0 +1,365 @@
+Amy Detwiler  0:04  
+Hi, my name is Amy and thank you very much for watching. So, I'd like to start the to and a different website that was pointed out to me yesterday that you could use to learn solidity that is not a 32 hour video and it is called crypto zombies. So, I have not signed up or anything like that, but this is the same type of thing that when you're using Free Code Camp where like you follow me tutorials, you fill in the blanks you use their environment to do like test it's like small snippets of code. So I am not going to be doing this. But I wanted to point out this is an option and probably a better solution than what I am doing. But yeah, so I'm not sponsored by them. But and I think that by the time I'm through the 32 hour video, this will no longer be a good option for me, but save yourself and and start with this resource. So we stopped at 3636 yesterday. But I accidentally closed it and it's hard to get things exactly. I am expecting that. We're not going to be doing any coding again today. But we'll see.
+
+Patrick Collins  1:43  
+interact and be partially owners of the protocols and the interactions that we decide that we want to be a part of. smart contracts that have been around for a few years now and what have they generated for what industries have come about due to the smart contract platforms being around? Well, you've probably
+
+Amy Detwiler  2:04  
+seen that's pretty place. I don't know if it's necessary. It's probably unnecessary. But here we go. What industries I have have come about. Well, let's say it things like Coinbase and Kraken and all of those like the exchanges. We have things like open sea which are NFT marketplaces.
+
+Probably we have daos but they're like they're decentralized organizations. I don't know what the A is. But in my experience there I haven't seen the utility actually realized in those but I'm also like, struggling to come up with a example of a Dow. Like I think there's like the queer friends Dow. I don't know what they do, unless it's just advocacy. And if that's it, then they're, they're doing a great job.
+
+Patrick Collins  3:21  
+probably heard of some of these and some of these we've already mentioned, but let's give you a quick refresher, d phi d phi stands for these.
+
+Amy Detwiler  3:28  
+Yes, we have defy decentralized finance,
+
+Patrick Collins  3:32  
+centralized finance, and it gives users the ability to engage with finance and markets without having to go through a centralized intermediary. For example, like we said, with Robin Hood, you no longer have to trust that Robin Hood would continue to give you access to the markets, you instead would be able to see in the smart contract. Yes, I have access to the markets or in the 2008 financial crisis. You never have to trust that these groups and institutions are giving you the correct things on the backend. You can see everything transparently right on the blockchain, you can engage with things like money markets and sophisticated financial products easy effectively and securely at the time of recording.
+
+Amy Detwiler  4:09  
+I'm so angry that everything in America you have to become an expert in it. Like you go to the doctor's office, all of a sudden you have to be an expert at billing at like literally knowing your billing codes that you don't get charged a bunch that you're not supposed to. You do cryptocurrency and all of a sudden you have to be an expert in solidity or you're going to get you know screwed over but like there's there's a lot of examples about this in America where it's like, Oh, you wanted to travel. I hope that you get your certification in becoming a airline pilot because you're going to have to, you know, know all the regulations yourself. Most of the time, like with Robin Hood, the appeal was just like, well, Robin Hood and in particular in web two in in that particular use case is I do not have enough money to buy an entire share of something and therefore I had access to it. But I also didn't have to become a finance major in order to day trade.
+
+Patrick Collins  5:36  
+defi has around $200 billion in assets under management and is quickly growing. If you're really excited about defy we have a ton of defy examples showing you how to build and interact with these protocols in coming lessons. Dows or decentralized. autonomous organizations are another group that we've already mentioned, autonomous. Dow is our groups that are governed completely decentralized by set of instructions or smart contracts on chain. There are some massive benefits here were engagements much easier. The rules are black and white and you can see everything directly on chain voting and governance technology is completely decentralized.
+
+Amy Detwiler  6:13  
+The problem with decentralized autonomous organizations is assuming that people are engaged. So I think there might need to be like a doubt collector app where you sign into the one app and it tells you like which governance you need to take action on. Because people are in too many discords and have too much to go on to like vote in this stuff.
+
+Patrick Collins  6:46  
+And the blockchain space is one of the big ones pushing how we can evolve politics and how we can evolve governance to make it more efficient, fair and reasonable. And you better know it we have some examples of how to build dowels and how to work with Dows incoming lessons. So be sure to watch those NFT Stanford non fungible tokens and can really be kind of described as digital art or just a unique asset. They can do so much more but we'll keep it high level for now. Projects like board apes and crypto punks have revolutionized the way that people get paid for their work.
+
+Amy Detwiler  7:17  
+I've been looking into NF T's I still don't understand for dates. Or crypto punks. I'm more interested in like, works of art that interests me personally. This is just not an art style that I like. So anything I don't personally like is something that I don't understand apparently
+
+Patrick Collins  7:39  
+show off their creativity status and so much more. And yes, of course we have lessons showing you how to create and interact with NF T's as well. So many other groups in so many other industries are being created as a result of this insane technology. And maybe after finishing the journey with us here. You go out and you'd be the one to pioneer the next industry or the next billion dollar idea. You've learned so much already. But now that we've learned a lot of this high level information, let's finally jump in and let's make your first transaction and let's get you set up to interact with this new world. In this next section. We're going to get you a wallet and we're going to show you exactly what a transaction looks like and feels like let's dive in.
+
+Amy Detwiler  8:22  
+Okay, let's do that.
+
+Unknown Speaker  8:23  
+You
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:00  
+Okay Hi, welcome back from the commercial break. So during the commercial break, I got a piece of popcorn out of my mouth because I had popcorn right before this and then I signed into my wallet. So I will probably be if they do a different one than when I have signing into that but I am signed into the ones that I already own. So there's that. He knows a little bit of the security don't want to be showing you all my passwords for things. So there's that.
+
+Patick Collins  0:40  
+This is the Etherium website, your e m.org. We are going to make a transaction on a test Aetherium blockchain. I'll explain what that means in a little bit. This is going to be our first transaction.
+
+Amy Detwiler  0:52  
+Alright, so let's go to aetherium.org. Yay.
+
+Patick Collins  1:03  
+That's made on the blockchain. Now again, this process that we're going to follow is going to work the exact same with polygon avalanche Phantom and all these other EVM compatible blockchains. I'll explain what that means in a bit too. For now, just follow along and have fun in order to make a transaction on any of these blockchains. The first thing that we need to do is we need to set up a wallet. So I'm going to go ahead and go to meta mask because it's one of the most popular wallets and one of the easiest to use. We're gonna go ahead and download it. I'm using the brave browser, but it works for Chrome, Firefox or really any other browsers. And it's just
+
+Amy Detwiler  1:41  
+very convenient. I had to do another project. So I already have my demos. So we will mostly go through this, but I'm glad I already have Metamask and it seems like we're going to do a test transaction and not a real one. So no actual going through people's bank accounts, which is great.
+
+Patick Collins  2:08  
+There's gonna be a little extension in the top right hand of your browser. This way we can really easily see it anytime is what we have in our wallet will still are all of our Aetherium based currencies. So I'm gonna go ahead and install meta mask for brave add to brave ad extension. And now we can go ahead and get started with working with Brave. This is the first step you absolutely need to take when starting your journey and one of the easiest steps to take. So we're gonna go ahead and get started. And we're going to create a brand new wallet so we're gonna go ahead and hit create wallet. If you already have a wallet, you can actually import it via I have a seed phrase and we'll talk about the seed phrase or secret phrase and a little bit. So let's go ahead and create a new wallet. And sure we'll agree to help meta mask now we will create our password make sure that this is really secure. For the purpose of this demo, my passwords are just gonna be password, but please don't have that be a password. You may also get a video like this teaching you about your secret recovery phrase. This is the same thing as your pneumonic but see your recovery phrase is a lot more clear as to what it is and again, they give us a ton of different tips. On how to actually store it and keep it safe. The main takeaway from this is never share this absolutely never share this. So we're going to go ahead and click reveal secret words. I'm showing you guys here because this is just a demo and I don't really care. However, if you show this secret phrase to anybody else, they will have access to all the funds in your application. So everything that we're going to do in this tutorial, we're going to use fake money we're going to use not real money so it doesn't matter. Now for the purposes of testing and developing, I always recommend using a completely separate Metamask a completely separate Wallet. So for going throughout this entire course if you already have a wallet or if you already have a meta mask, please just set up a new one create a new profile create a new
+
+Amy Detwiler  4:05  
+okay, this makes sense. Also. Yeah, we'll go ahead and do this. Let's just create a new meta mask. So, meta mask. We're just going to put this I don't want to erase or go back to do anything
+
+we'll do Chrome. already have it so this should be fine. No, I don't want to do that. She's okay
+
+the problem with this is that it's just it's so difficult to go back to get the toasting tries,
+
+Patick Collins  5:07  
+giving us all the features that traditional agreements and traditional contracts have now these digital currencies like Aetherium and Bitcoin have value even without this.
+
+Amy Detwiler  5:19  
+We're definitely past that part.
+
+Patick Collins  5:22  
+evolutionized the way that people get paid for their work, show off their creativity status and so much more. And Google
+
+Patick Collins  5:29  
+career certificates provide online training for in demand jobs, training for jobs, IT support, project management, data analytics, user experience, design, and more. Put your skills to work with a Google career certificate.
+
+Patick Collins  5:42  
+Hi
+
+Transcribed by https://otter.ai
+
+Patick Collins  0:00  
+are being created as a result of this insane technology. And maybe after finishing the journey with us here, you go out and you'd be the one to pioneer the next industry or the next billion dollar idea. You've learned so much already. But now that we've learned a lot of this high level information, let's finally
+
+Amy Detwiler  0:19  
+so that's the problem with this. I had to go back and there was another commercial and navigating the sidebar is just almost impossible. And that's what that's another reason why just like 3532 hour videos is just not great because with tech videos, and you're going through this, you might need to hear something more than one time and it's not amazing when I have to go back 510 minutes every time because you know, the navigation on YouTube videos isn't amazing. So
+
+Patick Collins  1:01  
+jump in, and let's make your first transaction and let's get you set up to interact with this new world in this. So the
+
+Amy Detwiler  1:09  
+purpose of this is I ignored him the first time because I was feeling pretty happy that I already had Metamask however, I'm going to create a new wallet for this for for me for for testing.
+
+Patick Collins  1:23  
+Next section, we're going to get you a wallet and we're going to show you exactly what a transaction looks like and feels like. Let's dive in.
+
+Amy Detwiler  1:33  
+And that is at 3917.
+
+Patick Collins  1:37  
+This is the Aetherium website aetherium.org. We are going to make a transaction on a test Aetherium blockchain. I'll explain what that means in a little bit. This is going to be our first transaction that's made on the blockchain. Now again, this process that we're going to follow is going to work the exact same with polygon, avalanche Phantom and all these other EVM compatible blockchains. I'll explain what that means in a bit too. For now, just follow along and have fun in order to make a transaction on any of these blockchains. The first thing that we need to do is we need to set up a wallet. So I'm gonna go ahead and go to meta mask because it's one of the most popular wallets and one of the easiest to use. We're gonna go ahead and download it. I'm using the brave browser but it works for Chrome, Firefox or really any other browsers. And it's just going to be a little extension in the top right hand.
+
+Amy Detwiler  2:31  
+Okay, so we have this what I'm going to do I guess is
+
+create an account. We will just say like the test creating
+
+so we have this or is there
+
+like a sign out
+
+should we not be able to just sign out from the top?
+
+So is locking the same thing as signing out then?
+
+Okay
+
+Where do I sign up for new Okay, let's
+
+Patick Collins  4:51  
+have your browser this way we can really easily see it any times what we have in our wallet still are all of our Aetherium based currencies. So I'm gonna go ahead and install meta mask for brave add to brave add extension. And now we can go ahead and get started with working with Brave. This is the first step you absolutely need to take when starting your journey and one of the easiest steps to take. So we're gonna go ahead and get started. And we're going to create a brand new wallet so we're going to
+
+Amy Detwiler  5:21  
+okay so when I have to uninstall meta mask in order to create a new wallet
+
+Okay, so I already have Metamask for Chrome um
+
+what is the seizure safe profile? Why would anything be Metamask have anything to do with seizures?
+
+It's gonna be one of those things. Where oh my gosh
+
+I guess
+
+we'll remove it and then we'll come here and we'll add to chrome
+
+and then, hopefully it'll ask us to create a new thing. And I will be taking us offline to do that. What is this doing? Yes, let's create an entirely new wallet. No, thank you. Let me create this and we'll be back in a minute or two.
+
+Patick Collins  7:26  
+You
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:20  
+Set up a little, but we're back. We can watch how to create our thing again. We're in a completely separate test Wallet. So there's that
+
+Patick Collins  0:35  
+go ahead and hit create wallet. If you already have a wallet, you can actually import it via I have a seed phrase and we'll talk about this seed phrase or secret phrase in a little bit. So let's go ahead and create a new wallet. And sure we'll agree to help our meta mask now we will create our password make sure that this is really secure. For the purpose of this demo, my passwords are just gonna be password, but please don't have that be a password. You may also get a video like this teaching you about your secret recovery phrase. This is the same thing as your pneumonic but see your recovery phrase is a lot more clear as to what it is and again they give us a ton of different tips on how to actually store it and keep it safe. The main takeaway from this is never shared this absolutely never share this. So we're going to go ahead and click reveal secret words. I'm showing you guys here because this is just a demo and I don't really care. However, if you show this secret phrase to anybody else, they will have access to all the funds in your application. So everything that we're going to do in this tutorial, we're going to use fake money we're going to use not real money, so it doesn't matter. Now for the purposes of testing and developing, I always recommend using a completely separate Metamask a completely separate Wallet. So for going throughout this entire course if you already have a wallet or if you already have a meta mask, please just set up a new one create a new profile, create a new meta mask and this will be your wallet that you use for the duration of this course.
+
+Amy Detwiler  2:02  
+And it is rather stupid that you have to delete the Metamask extension or to create a new one. But hey, you know, sure.
+
+Patick Collins  2:13  
+However you forget to actually put money in here. You absolutely need to have this written down because if you lose access to this and all your private keys, which we'll talk about in a little bit, you will lose access to your wallet and you will lose access to all your funds. So they give some tips like store this phrase and a password manager like one password. Write this phrase down on a piece of paper, put it in a secure location, memorize it, whatever you want to do, just make sure you have this backed up somewhere. I'm just gonna go ahead and hit download this for now. It's not best practice to save to your computer it is much better to use a password manager or write it down on a piece of paper or something. So we're gonna go ahead next and it's going to ask us to verify that we actually have it written down and we're gonna go ahead and hit Confirm and great and gives us a couple other tips. Remember, definitely take these tips very seriously, especially if you're gonna use this for real money. Like I said, For this demo, we're just going to use test money, so it's not as big of a deal but if you put real money in, you absolutely need to backup this seed phrase or secret phrase or we're going to refer to it as our pneumonic. Phrase. Awesome. Now we can see the interface of our wallet here full screen. And depending on your browser, you can actually come up and pin it to your browser so that you can just click it up in the top right, and it'll drop down and you can see the same.
+
+Amy Detwiler  3:32  
+Okay, we'll do that. I don't know why that wasn't before.
+
+Patick Collins  3:39  
+interface here, or pneumonic phrase, that secret phrase those that secret 12 words that they gave us have given us access to a new account. The address of our account is located right here. In fact, if we click it and copy it to our clipboard and go to a tool called a block explorer called ether scan,
+
+Patick Collins  3:59  
+ether scan.io. Okay
+
+Amy Detwiler  4:10  
+we're gonna come here, we're going to copy that.
+
+Patick Collins  4:15  
+And we can actually paste our address in here and see details about
+
+Amy Detwiler  4:23  
+pretty sure this is what they meant by like pseudo anonymous because this is very public. So what are we looking for? We have zero we have zero what about my other one? I know I am but what are you that's not my thing. Okay.
+
+Patick Collins  4:54  
+Our account ether scan, like I said, is what's known as a block Explorer. And it's a way to view different addresses transactions and other happenings that happen with a blockchain. If we look at this address that we just created on ether scan for Etherium main net, we can see no transactions have happened. There's really no analytics, there's no comments. There's no balance, there's no value because it's a brand new wallet and this address that we just punched into ether scan represents our unique address our unique wallet only identifiable for us. We'll talk about ether scan a little bit more in a bit because it's a tool that we're going to use quite often in wallets like meta mask, you can actually even click right here and create even more accounts. So let's go ahead and create a new account. We'll call this count two
+
+Patick Collins  5:45  
+You
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:01  
+Hey, welcome back from the commercial breaks. That one was about buying a house in DC. I have a house where we're living, this is ownership. This is this is what ownership looks like. But the real answer there is red fin. I use them no complaints. I had, like I am absolutely not sponsored by them. But um yeah. Let's go back to this.
+
+Patick Collins  0:38  
+This one has a different address. So if we click this one,
+
+Amy Detwiler  0:42  
+so I created another account before I was like no, he actually meant separate Wallet. So now I have two Metamask wallets. So there is that also I keep staring at myself. Hello self in in on my computer instead of into the camera. So there's that.
+
+Patick Collins  1:09  
+Go back to ether scan you paste the address in here. We hit Enter. We can see another address again that's uniquely identifiable to us right here is zero balance, no value, no transactions. Now if we go back to our Metamask and we click the little button we can see we have two different accounts in here. It's the same if we hit the extension in the top right click the button. We have two different accounts. The 12 word secret recovery phrase allows us to create multiple accounts, all with the same secret recovery phrase. So that secret recovery phrase will give us access to both account one and account to and any other accounts that we create by hitting this Create Account button because it gives you access to all the accounts in your meta mask. Now these addresses of both of our accounts are the public unique identifiers, but they also have a private unique identifier only identifiable to us. Similar to the pneumonic, these are private identifiers we never want to share and we never want to give out their private This is known as your accounts private key. So the pneumonic will give you access over many of these accounts the private key will give you access to just one of these accounts. We can see it by hitting these little three dots going into account details and export private key. You just have to punch in your password.
+
+Amy Detwiler  2:35  
+We're not going to test this one together. I will just believe him but this is important to know. Show your private key. Use your password, find your key, but okay, so each Metamask account can have multiple accounts within it but it's all the same wallet. The safest thing to do is to have multiple wallets one which is a dev only wallet. One that is your personal account wallet I've heard that you should be having like a hot wallet, a warm wallet, a cold storage wallet. But all of these are in Metamask I mean like you can use ones that aren't Metamask but I'm assuming that all like a lot of them are Metamask. But if one basically if one of your accounts gets hacked, they can take whatever like four or five NF T's you have. But, you know, if you you have to diversify it because it's like the Wild West and like you don't want like 20 of your board apes to be stolen from the same wallet because you had it there and it was public
+
+Patick Collins  4:08  
+here and you'll be able to see your private key. This is going to be your private key for your account. You can think of your private key as a password for your account that lets you create transactions. Now the reason that I'm showing mine on screen is because I'm not going to put any real money in here and this is just going to be a burner account. For this tutorial. And I highly recommend once again, you use a burner account, you use accounts that you never put any real money into. And along the way, I'll show you how to make sure that you don't do that. But normally it's not a good idea to show or share your private keys or your secret recovery phrase. If somebody gets a hold of this private key they will have access to my account one. However, they won't have access to my account to if they get a hold of my 12 word recovery phrase or pneumonic. They'll have access to both accounts and this is why when people say keep your private keys safe your keys, your Bitcoin, your keys, your Aetherium they're talking about both your mnemonics or your secret recovery phrases and your private keys keep those private your public addresses are totally public. And anybody can view your accounts on something like ether scan or any other explore and it's totally okay for people to share their public addresses. If you lose your private key you lose access to one of your accounts. If you lose your pneumonic, you could potentially lose access to all your accounts. Basically what I'm trying to say is back these up and keep them in safe places for this course it's okay if you lose one since we're not putting any real money in them but in the real world, be sure to do this and great. Those are some of the main security considerations here. Now if you look up in the top right, right next to that account button that we've been clicking, you also see this thing saying Etherium main net. This is our network's tab, and if we click it we can see a list of all
+
+Amy Detwiler  6:00  
+pay. So we have been a mask. We have the this here and I think when you add the network, okay
+
+okay. We're going to be adding the meta mask. Not the meta mask. The Ethereum test in it, I'm assuming
+
+Patick Collins  6:32  
+all the different networks that we currently have access to Etherium main net is the main network of Aetherium. And this is where real money is spent and used for transactions for this course. We're not going to be working with Etherium main net, we're instead going to be working with something called a test net. Since we're engineers oftentimes we're going to want to test and see what our code is actually going to do and how to interact with it. We're going to use a combination of local networks and test networks to actually do this to actually test our smart contracts. We're mainly going to use local networks, but we'll get to that in a little bit to see some of the test networks that come default with meta mask. We hit show slash hide test networks.
+
+Amy Detwiler  7:17  
+Oh, K. That was a pot test. Oh show high test networks.
+
+I just put that on. All right.
+
+Patick Collins  7:42  
+This will bring us into the settings page. And we just hit select this to show test networks in the list and we just hit on Now if we scroll back up and close out of the settings, we hit the network's tab again.
+
+Amy Detwiler  7:54  
+So click Settings and then apparently hit save and oh look we have the theory. Main net ropsten COVID coupe sorry. That's that's on our rink by glary localhost 8545. None of these are Etherium test it, though. Just
+
+Patick Collins  8:23  
+now we can see all of these other networks here like ropsten Colvin, Rinkeby and Garelli. These test networks or network,
+
+Amy Detwiler  8:32  
+the rally will be think about however he said it. That's probably the right way to say it. Things that are said by people I've never heard it said out loud are that's me. That's what I do all the time.
+
+Patick Collins  8:49  
+Books that resemble Aetherium or polygon or Avalanche or phantom or any of these other blockchains and we can actually switch our accounts to one of these other test networks. Let's click rink B, for example. We can see that on the Rinkeby test network. We also have zero Aetherium we have no money or nothing in here. We have a blank rink the wallet. These test nets work nearly identical to how Aetherium main networks except for they run with not real money. They run with fake money as a way for us to learn and interact and see how these different smart contracts actually work together at the time of filming. rink B is one of the most popular test networks along with COVID. So we're going to work a lot with rink b In this tutorial, however, be absolutely sure to check our GitHub repository to make sure that you're always up to date with the best test network for following along with the tutorial here. Since their test networks, people are running them out of the goodness of their hearts, and sometimes the best ones actually change so so be sure to follow along with the GitHub repository. We might also use COVID From time to time or maybe even girly. So we're going to show you how to use a couple of these different test nets. Fact if we go to the GitHub repo associated with this course, we can see recommended test net is indeed currently ranking. So that's what we're going to work with should this change you should be able to follow along with another test and we'll leave notes as to how to continue. Now what we can do actually is we can go to Rigby ether scan, we can go to
+
+Amy Detwiler  10:22  
+Okay, we're gonna go to commercial Hold on a second.
+
+Patick Collins  10:24  
+You
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:21  
+So I'm really glad that I'm recording this because I started watching it without recording it. And then I went to go back and it took me to like 3632 And I was like, I can't even right now. But before I went on commercial break, it was 50 minutes and five seconds. So we're together with this. So we do my cat is staring at me right now. Oh my gosh. Alright, so let's say one hour is probably 730 But I had some issues so we can go to about 740 Like 20 more minutes. That'll push us into watching basically half an hour today, which I think is a good especially since we're not doing anything programming heavy, like sticking with about half an hour watched is probably a good thing.
+
+Patick Collins  1:35  
+Right? We might also use COVID From time to time, or maybe even girly. So we're going to show you how to use a couple of these different test sets. Fact if we go to the GitHub repo associated with this course we can see recommended test net is indeed currently ranking. So that's what we're going to work with should this change, you should be able to follow along with another test and we'll leave notes as to how to continue. Now what we can do actually is we can go to Rigby ether scan, we can go to and look up Rinkeby ether scan and it looks like it's the first thing that shows up.
+
+Amy Detwiler  2:09  
+Okay. So I what I wanted to do, I think I was messing around with this anyway but basically we google that there's scan rink we it's this one I feel like this is something I should be putting into
+
+just so that I remember what it is. So it has like a legitimate subdomain and a bunch of transactions. I think the thing that I need to know is how do we get my fake Monopoly money
+
+Patick Collins  3:04  
+brings b dot ether scan.io. We can punch in this same address, copy and paste it and we can see some of the details of this address on the Rinkeby ether scan. Like I said right now it's totally blank. This networks interface later on is also how we're going to be able to work with polygon, avalanche etc. We'll just have to add networks but we'll get to that in a bit. And just to reiterate, test nets are free and for testing our smart contracts and main net networks cost money and are considered live. Now I also do want to put a caveat here that we do want to keep in mind that these test nets are being run at the goodness of people's hearts. So we don't want to abuse them. We want to use them to learn and then move on. So try not to send a billion transactions on one of these test nets. In fact, what we're going to do right now is we're going to send a transaction on the Rinkeby test net, and this will show us exactly what it would look like on a main network. In order for us to simulate one of these transactions. We're going to go to what's called a faucet. And if you go to the GitHub repository
+
+Amy Detwiler  4:09  
+what is a faucet
+
+Patick Collins  4:12  
+associated with this course right underneath the recommended test net is going to be a test net faucets which is going to show us where
+
+Amy Detwiler  4:21  
+Okay, so it did not in fact, okay
+
+okay, why don't we add this to here add the web Three folder to here. Right read the readme it should have the
+
+this the facets but chain link faucets dot chain dot link
+
+Patick Collins  5:18  
+the most up to date faucet location is for us getting test net Aetherium so here we are at faucets dot chain dot link, which again is the recommended faucet. And what we can do is we can actually put our wallet address in and get some test net link or test net Aetherium. Now what we are gonna have to do is we are gonna have to connect our wallet to the Rinkeby network. So we're going to come down we're going to switch from COVID to Etherium ring fi
+
+Amy Detwiler  5:49  
+so Hey, so connect my wallet use Metamask
+
+going to click next
+
+going to keep connecting until this network is not supported by chain link offsets your wallet is connected to an unsupported network. To question our work, please email us at support otherwise, add a support network to your wallet. Okay, what about this
+
+oh no, we're gonna have to go back. I don't want to do this
+
+using my keyboard for every five seconds because clicking the most
+
+Patick Collins  7:13  
+up to date faucet location is for us getting tested Aetherium so here we are at faucets dot chain dot link, which again is the
+
+Amy Detwiler  7:21  
+okay so faucet set chain link
+
+so, what if I go to Metamask and ya know we're gonna copy this I guess
+
+evening can we connect make sure that we are
+
+oh, you're a big jerk all right so
+
+what is even
+
+know I just want to connect my wallet. Oh, okay, so I think we can do with Minnie Mouse. Is
+
+there's supposed to be no I don't want to export my private key. What I want to do is
+
+there's a way to see what it's connected to No, this is not it
+
+I guess we can keep watching
+
+Patick Collins  11:04  
+the recommended faucet. And what we can do is we can actually put our wallet address in and get some test net link or test net Aetherium.
+
+Amy Detwiler  11:14  
+Okay, but that's not what I saw. This isn't fair. Let me go to FOSS this in incognito. And what even happens how is it that
+
+Oh shit. Okay
+
+How can faucets this literally is a three day old tutorial. They change their entire UI. So what we're going to do is we're going to lock this account
+
+we are going to refresh this page. No that's the third way to help we're going to do this again
+
+just to be clear. Cool. So this is not going to let me not be connected. Amazing.
+
+Okay I'm going to log off and log back into my test thing and then we're going to work on this together I guess.
+
+Patick Collins  13:57  
+You
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:00  
+Oh, I would I be recording okay. So basically I did the backup Rinkeby faucet which I don't like this faucets thing. It's definitely I linked my wallet and it's not letting me or these are the same wallet. I think that's what I meant to do before. So this is from facets. And then if we go to my Metamask and we copy this are these the same one? No. Okay, so I think I may have just
+
+I don't know how to fix this. Maybe I could.
+
+Going to clear my data
+
+I'm going to lock wallet that way I only with my meta mask and then commit to two facets again
+
+this is more complicated than I wanted to. Okay,
+
+all right, so we're doing Ethereum Rinkeby. Bridge trying to connect to the wallet. We're gonna do Metamask like we did last time. I don't want to do coin base wallet. This is the problem we're going to do the not Coinbase wallet. Why are we doing the Coinbase extension
+
+why is this asking me for my Coinbase okay. How about we go here and out there
+
+about to clean
+
+remove this and then that's why you should not just click on things. So that should not have done that because I'm not I'm signed into a different wallet so that is a problem channeling so I guess we go to history
+
+we're going to from last our data come and copy this again. I don't know why it would it would have been better
+
+why is this persisting?
+
+Should not have persisted?
+
+Do you not want to be connected with this?
+
+This looks like the correct why don't we just use Okay, first of all, we're not pinning this anymore because it never it never does that. Okay. We're gonna copy this. Here. Let me do this. I am not a robot, we will send this
+
+Okay, so we've used both the backup and this I don't know why it made me uninstall Coinbase or try to use my other Metamask that I'm not logged into. Or why all of a sudden it is looking correct. But hey we have confirmed and transferred the tokens. I think we're just going to call this a day. No because this is an entire thing. So okay, so we received two different transactions. And we're good super duper good. Did not, do not appreciate whatever happened here. That was super weird. I'm unsure. I can probably look back and figure out what worked. But this I guess this did tie me into the correct wallet after all. So if you are connected to other wallets, it will try to connect to your other wallets. And that's not great. So it's weird that it wasn't just this in the first place because it should have just been this like what was shown. So
+
+Patick Collins  7:47  
+yeah
+
+Amy Detwiler  7:53  
+we made it through. So if you've ever had trouble with faucets, let me know and um, have a good night. Bye
+
+with Tokyo babies.
+
+Transcribed by https://otter.ai
