@@ -1,0 +1,451 @@
+Amy Detwiler  0:03  
+Hi, my name is Amy and thank you very much for watching. So this is a continuation of the my reaction to this video course which is the Learn blockchain solidity and full stack web three development with JavaScript in 32 hours. And this is just I am a full stack developer. I'm a front end view developer. And this is a realistic look at how long it takes to get through a course like this. So yesterday we learned about creating a new wallet in Metamask. And we made our first Rinkeby transaction and it wasn't as easy as I thought it was going to be. So we'll see how we get to today. We're starting at 52 minutes and eight seconds. If you want to see everything before the first 52 minutes. You can see the first two days in the playlist. So Oh, and if you liked this, please like and subscribe and comment down below if you think that if you need camaraderie so don't have noise I turned off my noise. No, okay.
+
+Patrick Collins  1:46  
+Okay, what we can do is we can actually put our wallet address in and get some test net link or test net Aetherium. Now what we are gonna have to do is we are going to have to connect our wallet to the Rinkeby network. So we're going to come down, we're going to switch from COVID to Etherium ring fi and then we're going to make sure our Metamask is on the Rinkeby test network here.
+
+Amy Detwiler  2:12  
+Okay, I'm pretty sure I did this. And that so this is not the same thing. This is using a theory merge B, we have two transactions that we did yesterday. This one was with the backup and this one was with the site that he's on now. So I think we managed to do this.
+
+Patrick Collins  2:40  
+Once both of those are set up we're gonna go ahead and hit Connect wallet. We're going to choose meta mask. Once we do that, our meta mask is actually going to pop up and say would you like to connect to this website connecting to a website is how we give these websites in interface based interact with our wallets and interact with our meta masks. Don't worry, we're not sent. Hey,
+
+Amy Detwiler  3:04  
+okay, we're gonna stop
+
+Transcribed by https://otter.ai
+
+
+Patrick Collins  0:00  
+All transactions like
+
+Amy Detwiler  0:05  
+Welcome back from their commercial break. We made it a whole 30 seconds into the course today where we had one. Let's be fair, this was open on my computer for like 12 ish hours Oh also did not pay attention to when we started. We will call it at 2pm. So 3pm is when we will stop for the day ish.
+
+Patrick Collins  0:29  
+We'll get to that in a bit. So we just we can pick an account we want to connect. Let's choose our account one. We'll hit Next. And then we'll go ahead and connect. Now that we're connected, we can actually see our account connected up here and that little warning is now gone. And our wallet
+
+Amy Detwiler  0:47  
+I should pretend I'm still going along with this. I'm pretty sure we did this though. Fossett start checking that link. I am still connected here. We test it and make sure that it was like the right Metamask before
+
+Patrick Collins  1:09  
+an address is automatically placed into here, we're going to make our first test transaction. And for now we don't need test link. So we're going to leave that off. But later on, we're going to come back and get that test link. For now. We're just going to need 0.1 test Aetherium so let's go ahead and complete the security by choosing the traffic lights. And we're going to hit Send Request. What this is going to do is we're asking this faucet to send us 0.1 test Aetherium test net faucets are ways for us to get money into our wallets on a test net and this is why this test and Aetherium isn't worth any actual money since we can get it for free.
+
+Amy Detwiler  1:50  
+Yes, and we're very grateful because we didn't get any free Aetherium it would cost developers like 1000s of dollars to be able to develop so yes, we are very grateful for things like chain link.
+
+Patrick Collins  2:06  
+These don't exist on Main net, you can get real Aetherium or real money for free on a main network. So we're on Rinkeby we're getting fake Rinckey Aetherium and we're gonna go ahead and hit send request. Once we hit Send Request. This transaction hash is going to pop up here and it says transactions have initiated waiting for confirmation. This means that some other wallet is actually going to send us 0.1 test eath and this is the transaction that it's doing to do that now we just have to wait for our transaction to finish verifying and finish going through. Now if this doesn't work right away, I would recommend Wait a minute and then just try it again. But what we can do is we can click this transaction hash is that
+
+Amy Detwiler  2:48  
+so yeah, it did take a little bit the first time. I'm just wondering like what happens when it gets lost in the ether like you lose the transaction you lose your money. I fear that that happens to some people sometimes. So we'll see.
+
+Patrick Collins  3:05  
+Transaction doesn't show up. We can also just close this and we can copy our address here. And actually we already see 0.1 eath in our wallets here. But we can go back over to rank B ether scan. paste our address and and we can see that we now have 0.1 ether as a balance. We can also see that we have a transaction with all this information going into our wallet. That's what this green is for.
+
+Amy Detwiler  3:34  
+I'm also assuming that we can go to just ether scan.io and go to our wallet and it'll show us and because this is for the Rinkeby so let me try that. So we have the Rinkeby etherscan. And we have one of these things here and so we can just filter by my address and there should be two transactions here and in in. But if we go to etherscan
+
+we just do it by mind okay
+
+this makes sense. So we can't because etherscan does the real Etherium so that makes sense. Okay, now we now use the rink the theory etherscan Because it won't show up in the real one.
+
+Patrick Collins  5:04  
+If you click that transaction link, you'd get something like this. But if you didn't, don't worry because on the ether scan if you click the transaction hash in the transaction list, you can also see all the details like that. So now in our meta mask, we have 0.1 eath. Again, this is fake Aetherium and we have a transaction associated with our wallet now which is awesome. Again though, if we switch networks, if we switch networks back to Etherium main net, you can see that we have nothing on a theory main net or if we go to ropsten we also have nothing. We only have this 0.1 eath on the Rinkeby test network. If you want to practice working with another test net and the faucet that we're using has multiple test nets. Let's go ahead and try it during this section right now is completely optional. You can watch or you can follow along but
+
+Amy Detwiler  5:55  
+I'm choosing to watch because we can do this later. I just want to get through this.
+
+Patrick Collins  6:01  
+For example, I can see in my wallet that we already have COVID supported, so maybe I'll switch to COVID. Maybe we'll switch to COVID in the drop down here. We'll remove test 10 link because we only need test eath we'll hit I'm not a robot and we'll send request and the same things will pop up this time. This is going to be for the COVID test net and once our transaction finishes going through. Now, same thing on COVID here like what we did with Rinckey. Once our transaction finishes going through, we'll see 0.1 test eath on the COVID network. If you want to go ahead and try working with another one of the test nets. Like maybe for example COVID recommend you go ahead and giving it a try, but it's completely optional. And I would always refer back to the GitHub repo to make sure you're working with the most up to date faucet and test net and if we look back at ether scan, we can actually see more details on what actually just took place. What actually just happened how did our Metamask get a balance of 0.1 eath all of a sudden, well if we look down in the transaction section, we can see that there's a transaction here. Some address sent us 0.1 ether, and if we click the transaction hash, we can see more details about what actually went down with this transaction. Now understanding what's going on in this transaction is essential to learning and being a smart contract developer or just engaging with the ecosystem.
+
+Amy Detwiler  7:28  
+So okay, so before we get the explanation, since we're here this is the real one that we decided doesn't work but we're this is the transaction hash and so, the status is 200 and block number of the block in which the transaction is recorded so I'm assuming that in the blockchain This is the actual block that's being recorded in the timestamp is in UTC. These are the two wallet names. And then this is not one ether, but it's the fake one. So it's $0. The transaction fee is also $0. But it cost 1234. Yeah, like tot Souza, five to five, all the way up to the eating place. Oh, and then there's an additional term gas price which I think doesn't cost anybody money then
+
+so the gas limit was 60,000. Oh, so I'm assuming that this is the like Aetherium itself like what conditions made the gas feed the gas fee I don't know what the nonces in the transaction type was the eip 1559, which means nothing to me. And there is no input data. So there's that so no matter information, let's see what he says.
+
+Patrick Collins  10:05  
+Let's learn the first bit at the top is this transaction hash. This is a unique identifier for this blockchain or this test net that identifies this exact transaction. This transaction hash identifies sending 0.1 eath. To our address, we can see that the status of this transaction was successful. It didn't break in any case, we can see the block number that this transaction was included in and we'll get to blocks in a little bit. We can see the timestamp which of course is when this transaction occurred, we can see which account it was from which if we go ahead and open in a new tab, we can see that this is the account that this transaction came from and it's got 3 million ether of course, this is fake Rinku ether so it doesn't really matter. We can all see who it was to, which again is just us. This is our wallet address. 0x 106 X blah, blah, blah cero x 1066, blah, blah, blah, right? The value of this transaction, of course is 0.1 ether. Now what's all this that we see as the value so obviously, the value is 0.1 Because that's the moment we sent. We see this transaction fee and this gas price, we hover over the tooltip we can see if you zoom in on your ether scan, you see amount paid to the miner for processing the transaction. And we see a gas price which is cost per unit of gas specified for the transaction in ether and gray. The higher the gas price, the higher the chance of getting included in the block. Now if we scroll down even more, and we click See more, we can also see a ton of other information here. For now. We're just going to click to see less and just focus on these two. I'll explain all of these in a later session.
+
+Unknown Speaker  11:51  
+Searching for a better way to collaborate and your team primeira an online whiteboard made for teamwork. Everyone's welcome from project managers to product managers, designers, developers, agile coaches, and consultants. Get the whole team together in real time on MIROS infinite canvas
+
+Unknown Speaker  12:10  
+You
+
+Transcribed by https://otter.ai
+Amy Detwiler  0:03  
+Hi, welcome back from break, and I rearranged the screen while we're gone. So there's that. So, um Yeah, we, I was just going to say about this is that this was the about the amount of explanation that I was expecting and it was good that I was able to explain it as much as the presenter did so, there's that though. We'll get more into it later. I suppose. There's still the first two hours is an introduction to the blockchain. So I am assuming that we're gonna get just get really into this. So I'm glad that we're about to get into the one hour mark.
+
+Patrick Collins  0:55  
+Let's talk about just the concept of transaction fees and gas for a second. Remember how I said the blockchain is run by all these different nodes. We'll all those different.
+
+Amy Detwiler  1:04  
+Also. Just so you know, I am using otter to voice transcribe this because I am also doing a blog about this and it's much much easier to look and see what I said during this video to do the blog. That is just my reflections on what I learned for the day. Then to rewrite myself for an hour and figure out what I was talking about. So there's that that's the thing that's happening
+
+Patrick Collins  1:40  
+for nodes are running this blockchain because they actually get paid for all the transactions that happen on these blockchains whenever you make a transaction, there's a node or a miner or or a validator somebody running the blockchain software is gonna get paid a tiny bit of Aetherium or polygon or whatever blockchain that you're running on. They're gonna get paid a tiny bit of that native blockchain currency. This payment is obviously to incentivize people to continue to run nodes and they calculate how much you pay and how much the node operators get paid based off of how much gas you use. So there's this concept of gas gas is a unit of computational measure. The more computational transaction uses the more gas you'd have to pay for. For example, we do hit click More just really quickly. We can see this section saying gas limit and gas usage by transaction, there was a limit of 60,000 units of gas on this transaction and 21,000 were actually use. So this transaction use 21 units of gas now for very simple things like
+
+Amy Detwiler  2:48  
+okay, that makes sense. So, this used about 35% of the allotted gas limit. And this was just a very simple transaction of transferring an eath. So I wonder what is considered to be a more complex situation,
+
+Patrick Collins  3:10  
+like sending ether the units of gas are usually pretty cheap, but maybe for more complex things. Like like minting NFT, depositing to some defy contract, etc. Maybe those will cost more gas because they'll be more computationally expensive. This is a little confusing right now, don't worry too much about it. Just know that we use 21,000 gas here, and if we pull up the calculator 21,000 gas times this gas price right here, times the gas price, we get the exact same as we see for the transaction fee. So gas price, times how much gas you used, is the transaction fee. So whoever sent us this 0.1 ether also paid 0.000525 excetera. Winky ether to make this transaction. Now, each blockchain has a different way of actually calculating how this gas stuff works. So that's basically going to be the high level of it. So we're going to focus just here for now there's a total transaction fee and then there's obviously the gas price. After we cover how blockchain works, I'll explain what this burn stuff is these gas fees and all these other stuff. For now, just know that anytime you make a transaction on chain, you have to pay a little bit of what I call transaction gas. So for example, if we go to our Metamask we have two accounts. Right here. We have a count one Rinckey eath and account two, zero Rinckey eath. If I were to send 0.05 Rinckey eath. From this account to my other account, how much Rinckey eath Do you think I'd have left? Well, let's go ahead and try it. This will be the first transaction that you're actually creating that you are going to spend the gas for. So if we go ahead,
+
+Amy Detwiler  4:55  
+okay, so I didn't exactly follow along with all that. I understand what's going on. I did not create two accounts before. So we can do that now. We will just have account one and account two. And I'm assuming I should probably just go along with him. But come here. Copy this to the clipboard. We'll come here we will send transfer between my accounts here and we'll just say like point one.
+
+Next
+
+key, the gas fee is point 003 something or other so I will have point one s and this account and I will have less than point one in this account. It'll be just slightly less. Do you not wish to speed this up? But I do want to go along with this explanation to make sure that I did this correct.
+
+Patrick Collins  6:31  
+weight transfer between my accounts count to 0.05. Next, we can see some information here about what's actually going on. Metamask has some new advanced gas for UI and settings. We're also going to turn this on. So go ahead and click that enable enhanced gas UI. Turn that on and then go back and again, this is going to be the experimental tab. But it could also just be in the General Settings tab. Depending on when you actually run this. We can see a little notification here. Again, this depends on what version of meta mask you're using. And we get this little drop down that says Here are some of the different type of gas fees that you can actually pay the reason that gas fees might change, as you can see here is that depending on how busy the blockchain is, you have to pay more gas if a lot of people are sending.
+
+Amy Detwiler  7:23  
+So let's go back to this. My Metamask go to my
+
+settings
+
+I guess go to the experimental on in then. Yeah, because I'm always going to be choosing the slow because I'm cheap
+
+Patrick Collins  8:05  
+transactions that means there's not going to be enough space for everyone's transaction to get through. Hey,
+
+Transcribed by https://otter.ai
+Amy Detwiler  0:00  
+And welcome back from break. So yeah, I was just saying that we're gonna like this new UI and be able to figure out how to always pay low gas fees because I'm cheap. And I would rather just not pay as much like the ultra low
+
+Patrick Collins  0:44  
+bit of an oversimplification of what's happening but don't worry too much about it for now. Now if we want to send the 0.05 ether to our second account, we can see this gas estimated section which is saying it's estimating.
+
+Amy Detwiler  0:57  
+Oh yeah, also has this gone through yet, or account one has sent it to this point, what is this? Yeah, so this is point 099 Something eath and this is point one eath. Because there was transaction thing
+
+Patrick Collins  1:24  
+we're gonna pay 0.00004792 gas in addition to sending the 0.5 eath. So at the bottom, we have amount plus gas fee. And this is going to be the total amount that we're going to be spending on this transaction.
+
+Amy Detwiler  1:41  
+So understand that there has to be a transaction fee. But personally, this is like sales tax in America, where it's not baked into the the final value, excuse me. But in other countries like if you see the price on like the sticker, that's what you're gonna pay. So this is kind of an American thing. I'm assuming like, in my opinion,
+
+Patrick Collins  2:14  
+0.05 is what we're sending. And we also have this gas piece. So we go ahead and confirm. We now see we have a transaction pending in our Rigby ether scan. And if we click on it, we can even hit View on block Explorer. And a wrinkly transaction hash will pop up and depending on when you click it, it might say indexing this means that ether scan has received
+
+Amy Detwiler  2:39  
+okay. So not there for a second. I'm sorry. We're have to go back. Where do we click? It's pending.
+
+Patrick Collins  2:53  
+Yes, please. So we go ahead and confirm. We now see we have a transaction pending in our Rinkeby ether scan. And if we click on it, we can even hit View on block explorer.
+
+Amy Detwiler  3:06  
+Okay, so now that it has here, can we view this on block or we can view on block Explorer.
+
+Patrick Collins  3:26  
+In a rink, the transaction hash will pop up and depending on when you click it, it might say indexing. This means that ether scan has received your transaction and is trying to place it if you don't see anything here, it means that maybe the transaction hasn't gone through yet. Maybe you need to wait a little bit more. Or maybe you need to go back to the GitHub repo and pick the recommended test that and faucet. So you might have to wait a minute or so for this to actually finish indexing. After a minute or so we can see that this transaction has indeed passed and we can see a lot of the same information that we saw on our last one, this time with 0.05 ether. And now if we look at our Metamask we'll see you can see account one has 0.05 It's rounding up a little bit. We click on the big button we can see it actually has 0.049953 excetera. I did the same thing. In our other account account two does have exactly 0.05. This is because we spent a little bit of Aetherium on gas to send this transaction now with just this little bit of information. You know how to actually interact with applications that use the blockchain, how to send transactions and lot of the non technical details. Now here's something that's incredibly exciting with just this little bit of information. You now know how to interact with blockchains and interact with the Etherion protocol. So if you don't want to learn how to code anything, you can go and you can start interacting with Aetherium and interact with protocols with just as much information. However, I know most you guys are here to learn how to code.
+
+Amy Detwiler  4:56  
+Guys look like a guy to you. You're all you're all I mean gender neutral. Don't I mean is vast majority of men do take this course. However, I am here and I would like to feel included. So there's that it's just a purse. It's a pet peeve because it feels like they're not talking to me. So it's fine. I will take I'll take your knowledge.
+
+Patrick Collins  5:34  
+So let's look under the hood of Aetherium and what is actually going on with these transactions and what these gas and what these blockchains and what's really going on. Let's learn all the fundamentals of a blockchain. Now if you want to just go ahead and jump to the coding, go ahead and grab a timestamp from the description. However, learning exactly how the blockchain works is going to make you an incredibly powerful developer. So let's take a look at that first.
+
+Amy Detwiler  5:58  
+Okay, we're gonna stop here. Because as on one second, and then we'll be back
+
+Unknown Speaker  6:02  
+hello, You
+
+Transcribed by https://otter.ai
+Amy Detwiler  0:04  
+Hey, welcome back from break. We are now learning how block chains actually work. We are going to watch every second of this 32 hour video course together. So I'm there's that, but we have about 15 minutes left for today. Nothing too bad has happened yet so we'll just keep going.
+
+Patrick Collins  0:32  
+So we're gonna be going through this blockchain demo on this site right here now creator of the site has a fan
+
+Amy Detwiler  0:38  
+okay this site right here I cannot say this it is Ender's round worse.com So it is a n d e r s Rome worth.com blockchain okay is this something I should just I'll just put this into here. Yes we will save this and is this if I come here I'm assuming it is in the
+
+Okay, so Anders brown worth is in the resources section of the readme. If you did not quite get that from his video.
+
+This looks like we have three chains. They have a nonce and they have data so I don't know. I don't know. So we will look at this up.
+
+Patrick Collins  2:12  
+Fantastic video on a fantastic walk through blockchain one to one it is right on their site. So if you're looking for another explanation, definitely check out his video. It is absolutely fantastic. But the first thing that we really need to do in order to understand blockchain or just really anything and everything that's going on, you're working first really need to understand this Sha 256 hash, or hashing just kind of in general. It's first understand what a hash is. Hash is a unique fixed length string meant to identify any piece of data. They are created by putting some piece of data into a hash function in this example,
+
+Amy Detwiler  2:48  
+yeah, Sha 256 is really secure. And basically like you salt the hash and then you have to use the passphrase to an encrypted so there's that
+
+Patrick Collins  3:09  
+hashing algorithm used is Sha 256. Now cerium actually uses this. This right here for its hashing algorithm, which isn't quite Sha 256, but as in kind of this SHA family, but it's really just another way to hash thing
+
+Amy Detwiler  3:24  
+is ke CCA K. I don't know how to pronounce that. But I'm just assuming but it's like, same thing, different flavor.
+
+Patrick Collins  3:37  
+And the specific hash algorithm doesn't matter so much. So this example, you just shot to get six but you can imagine it's the same as the Aetherium hash, they're just going to result in a different hash.
+
+Amy Detwiler  3:49  
+Okay, so he's actually on a different URL. It's slash blockchain slash hash. So.
+
+Patrick Collins  4:03  
+So what's gonna happen in this application here is whatever data or whatever information we put into this data section here as you can see below is hash changes. So what's happening?
+
+Amy Detwiler  4:17  
+So basically, if you give it the metadata of like, right, um
+
+so it has this and then it basically just redoes the hash every time you do an input which I don't think this is accurate. And well, if you publish to like IPFS every time you made a change, kind of like how word autosaves then yeah, the hash would change, but you don't really because it's like, well, I mean, the gas fee but the versioning and everything would be really crazy. So there's that
+
+Patrick Collins  5:19  
+is this data is running through the Sha 256 hash algorithm. And it's outputting, this unique hash. So this hash is a unique fixed length string that's going to identify like a blank data piece here, right? So if I put in my name like Patrick Collins, this is the hash that's going to represent Patrick Collins, right and you can see, even when I put, you know, tons and tons of data in here, the length of the string doesn't change, right?
+
+Amy Detwiler  5:53  
+That's because they're using well it's like hash magic, but also they're using the hash as like the unique identifier on the, the block, I'm assuming.
+
+Patrick Collins  6:07  
+So it's always gonna be the same. We can put almost any amount of data in here there is an upper limit on the max size of the data, but for all intents purposes, we can pretty much put any length in here. And you'll see to that every time I type in Patrick Collins, this hash is always gonna be this seven e five D, right? I'm gonna delete I'm gonna do Patrick Collins again. Your 75 B is always this, this unique hash is always going to be unique, right? It's always gonna be this fixed length. string here. So now we can take this idea way of putting this data in here and we can move on to this concept of a block. So with this block concept, we're going to take the exact same thing with this hash this this data section, right but
+
+Amy Detwiler  6:49  
+okay, so we actually move to a different URL again, not black block. And then so we have block one. I don't know what nonce is going to explain nonce or am I going to have to look up with nonces that's not since
+
+Patrick Collins  7:09  
+stead of having everything just being in this this singular data area right here. We're going to split this data up into block Nans and data so all
+
+Amy Detwiler  7:18  
+its nonce, ami nonce.
+
+Patrick Collins  7:22  
+So what we're going to do is we're actually going to hash all three of these to get to get this hash.
+
+Amy Detwiler  7:28  
+Fine. Three, what is known as an increasing numeric value, which is used to uniquely identify transactions
+
+Okay, so it can only be used once and until the transaction is mined, it's possible to send multiple versions of the transaction, the same nonce but only until it is mined. And once it is mined, it is immutable. Okay, so I lied. The hash is basically just the encrypted information. The nonce is the unique ID. The block number, I think is just for educational purposes.
+
+Patrick Collins  8:34  
+We're gonna put all three of these we're gonna say all three of these are combined. Together, we're gonna put every all three of them into this hashing algorithm to figure it out. So if I type a bunch of stuff here
+
+Amy Detwiler  8:46  
+I'll just say like
+
+Amy Detwiler.
+
+Patrick Collins  9:04  
+Let's see that block one with nonce, you know, this nonce and this data. We're gonna get this hash and as you can see, actually, the screen turns red this block turned red now.
+
+Amy Detwiler  9:17  
+I did in fact notice that sorry if you are colorblind, because green and red. Don't show up as different colors.
+
+Patrick Collins  9:34  
+What happens when I hit this mind button? I hit this map.
+
+Amy Detwiler  9:38  
+Yeah, what does happen when I hit the mind button? Oh, it turns green probably means that it saved
+
+Patrick Collins  9:45  
+I button it's actually gonna take some time. It's gonna think for a little bit. And we can see that the nonce here actually changed right the nonce is different from what
+
+Amy Detwiler  9:54  
+did it change okay
+
+let's say like
+
+so we will minus 56990 and it did it increments
+
+Patrick Collins  10:29  
+it was before and this hash now starts with four zeros. Okay, and then the back turn green. When we're talking about mining, we're talking about miners solving some type of very difficult problem that takes a lot of time to do now in this example here the problem that the miners had to solve was they had to find a nonce, or a value in this none section that when hashed with at block number one with this data, it would start with four zeros. So the problem here the miners had to solve was to start with four zeros and the only way for them to really do that is kind of this brute force. You know, trying stuff so they tried one okay, one didn't work. Okay, two, nope, two didn't work. Three, no, four or five, six. Okay, five. Well, that started with one zero, but it's not four. And they have to keep trying all these numbers until they get to this one where you know, let's hit mine again.
+
+Amy Detwiler  11:23  
+I don't know the significance of there being four zeros, but I'm assuming we're gonna find out also. Okay, we're gonna start with the commercial ordering to come back. I'll see you then.
+
+Transcribed by https://otter.ai
+
+Amy Detwiler  0:04  
+Hey, welcome back from break. We are now learning how block chains actually work. We are going to watch every second of this 32 hour video course together. So I'm there's that, but we have about 15 minutes left for today. Nothing too bad has happened yet so we'll just keep going.
+
+Patrick Collins  0:32  
+So we're gonna be going through this blockchain demo on this site right here now creator of the site has a fan
+
+Amy Detwiler  0:38  
+okay this site right here I cannot say this it is Ender's round worse.com So it is a n d e r s Rome worth.com blockchain okay is this something I should just I'll just put this into here. Yes we will save this and is this if I come here I'm assuming it is in the
+
+Okay, so Anders brown worth is in the resources section of the readme. If you did not quite get that from his video.
+
+This looks like we have three chains. They have a nonce and they have data so I don't know. I don't know. So we will look at this up.
+
+Patrick Collins  2:12  
+Fantastic video on a fantastic walk through blockchain one to one it is right on their site. So if you're looking for another explanation, definitely check out his video. It is absolutely fantastic. But the first thing that we really need to do in order to understand blockchain or just really anything and everything that's going on, you're working first really need to understand this Sha 256 hash, or hashing just kind of in general. It's first understand what a hash is. Hash is a unique fixed length string meant to identify any piece of data. They are created by putting some piece of data into a hash function in this example,
+
+Amy Detwiler  2:48  
+yeah, Sha 256 is really secure. And basically like you salt the hash and then you have to use the passphrase to an encrypted so there's that
+
+Patrick Collins  3:09  
+hashing algorithm used is Sha 256. Now cerium actually uses this. This right here for its hashing algorithm, which isn't quite Sha 256, but as in kind of this SHA family, but it's really just another way to hash thing
+
+Amy Detwiler  3:24  
+is ke CCA K. I don't know how to pronounce that. But I'm just assuming but it's like, same thing, different flavor.
+
+Patrick Collins  3:37  
+And the specific hash algorithm doesn't matter so much. So this example, you just shot to get six but you can imagine it's the same as the Aetherium hash, they're just going to result in a different hash.
+
+Amy Detwiler  3:49  
+Okay, so he's actually on a different URL. It's slash blockchain slash hash. So.
+
+Patrick Collins  4:03  
+So what's gonna happen in this application here is whatever data or whatever information we put into this data section here as you can see below is hash changes. So what's happening?
+
+Amy Detwiler  4:17  
+So basically, if you give it the metadata of like, right, um
+
+so it has this and then it basically just redoes the hash every time you do an input which I don't think this is accurate. And well, if you publish to like IPFS every time you made a change, kind of like how word autosaves then yeah, the hash would change, but you don't really because it's like, well, I mean, the gas fee but the versioning and everything would be really crazy. So there's that
+
+Patrick Collins  5:19  
+is this data is running through the Sha 256 hash algorithm. And it's outputting, this unique hash. So this hash is a unique fixed length string that's going to identify like a blank data piece here, right? So if I put in my name like Patrick Collins, this is the hash that's going to represent Patrick Collins, right and you can see, even when I put, you know, tons and tons of data in here, the length of the string doesn't change, right?
+
+Amy Detwiler  5:53  
+That's because they're using well it's like hash magic, but also they're using the hash as like the unique identifier on the, the block, I'm assuming.
+
+Patrick Collins  6:07  
+So it's always gonna be the same. We can put almost any amount of data in here there is an upper limit on the max size of the data, but for all intents purposes, we can pretty much put any length in here. And you'll see to that every time I type in Patrick Collins, this hash is always gonna be this seven e five D, right? I'm gonna delete I'm gonna do Patrick Collins again. Your 75 B is always this, this unique hash is always going to be unique, right? It's always gonna be this fixed length. string here. So now we can take this idea way of putting this data in here and we can move on to this concept of a block. So with this block concept, we're going to take the exact same thing with this hash this this data section, right but
+
+Amy Detwiler  6:49  
+okay, so we actually move to a different URL again, not black block. And then so we have block one. I don't know what nonce is going to explain nonce or am I going to have to look up with nonces that's not since
+
+Patrick Collins  7:09  
+stead of having everything just being in this this singular data area right here. We're going to split this data up into block Nans and data so all
+
+Amy Detwiler  7:18  
+its nonce, ami nonce.
+
+Patrick Collins  7:22  
+So what we're going to do is we're actually going to hash all three of these to get to get this hash.
+
+Amy Detwiler  7:28  
+Fine. Three, what is known as an increasing numeric value, which is used to uniquely identify transactions
+
+Okay, so it can only be used once and until the transaction is mined, it's possible to send multiple versions of the transaction, the same nonce but only until it is mined. And once it is mined, it is immutable. Okay, so I lied. The hash is basically just the encrypted information. The nonce is the unique ID. The block number, I think is just for educational purposes.
+
+Patrick Collins  8:34  
+We're gonna put all three of these we're gonna say all three of these are combined. Together, we're gonna put every all three of them into this hashing algorithm to figure it out. So if I type a bunch of stuff here
+
+Amy Detwiler  8:46  
+I'll just say like
+
+Amy Detwiler.
+
+Patrick Collins  9:04  
+Let's see that block one with nonce, you know, this nonce and this data. We're gonna get this hash and as you can see, actually, the screen turns red this block turned red now.
+
+Amy Detwiler  9:17  
+I did in fact notice that sorry if you are colorblind, because green and red. Don't show up as different colors.
+
+Patrick Collins  9:34  
+What happens when I hit this mind button? I hit this map.
+
+Amy Detwiler  9:38  
+Yeah, what does happen when I hit the mind button? Oh, it turns green probably means that it saved
+
+Patrick Collins  9:45  
+I button it's actually gonna take some time. It's gonna think for a little bit. And we can see that the nonce here actually changed right the nonce is different from what
+
+Amy Detwiler  9:54  
+did it change okay
+
+let's say like
+
+so we will minus 56990 and it did it increments
+
+Patrick Collins  10:29  
+it was before and this hash now starts with four zeros. Okay, and then the back turn green. When we're talking about mining, we're talking about miners solving some type of very difficult problem that takes a lot of time to do now in this example here the problem that the miners had to solve was they had to find a nonce, or a value in this none section that when hashed with at block number one with this data, it would start with four zeros. So the problem here the miners had to solve was to start with four zeros and the only way for them to really do that is kind of this brute force. You know, trying stuff so they tried one okay, one didn't work. Okay, two, nope, two didn't work. Three, no, four or five, six. Okay, five. Well, that started with one zero, but it's not four. And they have to keep trying all these numbers until they get to this one where you know, let's hit mine again.
+
+Amy Detwiler  11:23  
+I don't know the significance of there being four zeros, but I'm assuming we're gonna find out also. Okay, we're gonna start with the commercial ordering to come back. I'll see you then.
+
+Transcribed by https://otter.ai
+Amy Detwiler  0:00  
+According again, and then we're gonna do this yay. For zeros at the top at this.
+
+Patrick Collins  0:07  
+Yeah,
+
+Amy Detwiler  0:08  
+it's actually it's actually nice. No, it's actually nice to have the commercial breaks every time I'm thinking No. Well, first of all I do in fact watch them all the way through. Because Free Code Camp deserves all the pennies from this because I am not paying them directly. But they're having commercials every 10 minutes, which is a nice break for me like a two minute break in 10 minutes like it's good for like brain wandering. It's not great if you're like recording it and trying to get all in one so that you don't have to do as much fiddling around. But, you know, I'm not a lot of people are doing what I'm doing. So there's that. So, Free Code Camp be keeping free and I don't blame you for your commercial breaks and wow. So we're trying to get four zeros. And this is a difficult brute force problem. I'm unsure what the significance of the four zeros are, though.
+
+Patrick Collins  1:34  
+Now, the specific problem changes blockchain to blockchain right? Yeah. Aetherium has a different problem for miners to solve. Bitcoin is different problems from yourself, but this concept is going to be the same. So they have to take it one block is going to be this this, this concept is going to be all this data. It's going to be the block number. And it's going to be this nonce, right and so this nonce is the solution is going to be the the number that they use to get like the solution to the problem, right? So if I go to one here, you know, I do this again. Mine and then answer has changed, right? And went from one to 33,128 because this is the nonce that allowed this hash to start with four zeros. And so that's what's happening. When blockchain miners are mining they're going through this process is very computationally intensive process of trying to find a nonce that fulfills whatever the problem is. So that's really it actually. So that's a block and that's really what's happening when miners are mining they're just looking.
+
+Amy Detwiler  2:39  
+This still doesn't the answer why is the problem they're trying to solve? To make the shot into four zero, SHA
+
+Patrick Collins  2:55  
+King, there's trial and error brute force trying to find this not so so now that we know what a block is. Let's go to the next step and figure out okay, well, what's a block chain? So here we have
+
+Amy Detwiler  3:08  
+so, is my question here for this is the nonce that we start with that is the starting number for the brute force calculation. So that's probably just a temporary nonce, because the real number they use to solve the calculation is the next number that you see, I guess. I guess that's the explanation. I could look into this further. But my goal with this is to create a gap and do more front end stuff. So we will put this on the table. Oh out. Leave this on the table.
+
+Patrick Collins  3:58  
+An example of what a blockchain is gonna look like. Right? We have a combination you know, we have back here in the block section we have one what one block looks like. So here we have multiple different blocks right? Each one of these represents a different Yeah, he
+
+Amy Detwiler  4:13  
+went back to the blockchain blockchain Wow. Okay. So we have the blockchain okay. And then we have the blockchain backed in, just not redundant at all, and you'd have that but it has five of them. And it's not responsive. So it doesn't it only get smaller.
+
+Patrick Collins  4:49  
+We have an additional column here or we have additional variable here. So like before, you know, we have block, nonce and data, right? We have blocked nonce data. We also have this thing called previous right. And so this is actually pointing to the previous hash of the last block. So for example, if we go to the last block in this block chain, it says previous 008. And if we look at the hash of block number four, it says 0008. And then we look at its previous it's four zeros benign. We have four zeros benign and so on. All the way back to our first block, which has previous of just all zeros, right? And so the block with the previous of all zeros, is going to be known as the Genesis block. So you've probably heard that before the Genesis block, it's the first block.
+
+Amy Detwiler  5:37  
+Okay, the Genesis block is the first block in a blockchain that makes sense because Genesis is beginning like the Bible. So yeah,
+
+Patrick Collins  5:49  
+the blockchain where the previous hash points, just a fancy linked list to a hash that doesn't actually exist. Now, as you can imagine, kind of the same as how this block works, how the block nuts and data all go through the hashing algorithm in the blockchain, the block nonce data, and previous hash all go through this hashing algorithm to figure out what the hash is, okay? So if we go to over here, you know, for example, if I type in Patrick, obviously, this is now no longer valid, right, because this nones combined with the block the data and the previous hash aren't going to solve our problem of having four zeros at the start, right? So I'm gonna go and fix that. And that's, that's kind of an easy way to to see it being broken but, but let's take a look. If I break this block right here, what happens if I if I break the data in here, if I do like Patrick in here, you can see that both of these are now red. Both of these are now invalid, right? Because the block hash with the nonce hash with the new data, which is my name Patrick. Password, hashed with the previous block is now a brand new hash, right? And this block is still pointing to this previous hash right here, right? It's pointing to this previous block, and now it is wrong and it is messed up and now and now it's nones with this previous hash. is also
+
+Amy Detwiler  7:11  
+okay. This makes sense because when you change any of this information, the hash changes. And since this is knows about the previous hash, if you change that, it would be like a really large domino effect and it would be a really big nightmare to figure out. So yeah, this makes sense.
+
+Patrick Collins  7:37  
+Right? And this is where when we talk about blockchains, being immutable, this is exactly how it's immutable, right? Because I go back and I change anything, you know, if I've just typed a right here, the entire blockchain is now invalidated. Because none of these are going to have nonces that solve this equation anymore. So this is why blockchains are immutable is because anytime you change one thing, you ruin the rest of the blockchain okay? So however, though you know, if Nate was here originally, we can go ahead and mine these, your mind all these but as you can see, you know, this is going to start getting very computationally expensive, because I have to go redo basically the entire blockchain and the farther and farther down the line you get the harder and harder it becomes to rehash and review all these different block chains here. Now this makes a lot of sense right? So we have this blockchain it's really hard to change something in the past but if we do we can just go ahead and remind it now if I'm the one who controls the blockchain, right, if I'm the one who controls this, you know, and I want to change something the past will Okay, great. All you got to do is change the state of here. And then you know, mine each one of these, you know, obviously it's going to be very computationally expensive, but it's something that I can do right if I'm the one who owns the blockchain. Now, here's where the decentralized nature or the distributed nature really makes it incredibly powerful. So we're gonna go to the distributed tab here, which I also refer.
+
+Amy Detwiler  9:02  
+Oh, there's just there's tabs. See, when you're following along, sometimes you just don't pay as much attention. Let's go to the distributed thing like a normal person.
+
+So if I change this one to me, everything is still broken. So let's get the explanation about why. There's a pure B and pure C. Okay, so changing. My friend probably okay. I know you have friends. I'm surprised too. Okay.
+
+Patrick Collins  9:48  
+Pretty much the decentralized tab here is going to show us what a blockchain looks like. In a decentralized manner. So we have this exact same initial setup here. We have distributed blockchain we have our first blockchain which is kind of exactly as the one from here but we also have more than once we have peer, a peer beam, and PRC and when people are talking about peer to peer peer to peer transactions, they're really talking this is kind of that concept that they're talking about, right? So we have a number of different peers who are running this blockchain technology. They're all weighted equally, right? Each one of these tiers or each one of these nodes, each one of these entities running a blockchain has the exact same power as anybody else. Right. So the way that we can tell very easily which blockchain is correct or which ones are correct, are by looking at this end hash here right? Or by looking at where we are in the blockchain because we're going to remember, because again, remember this, this hash that this this in this last block here, is going to encompass all of the blocks from before, right, because this last hash is going to have the previous hash here, which includes previous hash here, which this hash includes the previous hash here. And so this last hash is encompasses everything in here, right? And we look we can look at the hash of pure C, which is four zeros and then E for B, we can look at the latest hash of pure B which is four zeros E for B, and then pure A which is four zeros E for b. So all of these peers, all of these nodes, all of these decentralized you know these independent, all these independent users running as blockchain software, they're all matched up, it's very easy for their nodes to look at each other and say, hey, great, we are all matched up. Now. What let's say that a decides that, you know, something happened on the blockchain that they didn't like and they wanted to go back and change something right. So let's say they change here, you know, obviously, the rest of their blockchain is invalidated and they have to spend a lot of computational power to catch up to speed so let's go ahead and humor it. Let's say that they did. They ended up catching up. They ended up catching up you know, they ended up mining everything. And now they have a valid blockchain right? It solves the equation awesome. However, in block number three, there's something new. Right? This is here and it shouldn't have been here. This is something that pier a put in by themselves. All that happens now, is we look at all the block chains that are running the software and we're looking at all the hashes and hash of block number five. So pure A has this new hash now 009 BC, but pure B has a different hash 00 E for B right so who's right? Is it disappear a with their new stuff or is it pure B? Well, that's where the decentralization comes in. Because then we can look at Piercey Piercey, also as E for b. So if you're being Piercey will say, Hey, you're a you're wrong. Get out right. And pure A will stop being able to participate in the mining rewards because they have essentially forked the blockchain and started their own little blockchain right with their own history, because they're the only ones with this, this piece of data in block three, whereas pure B, and pure C have nothing in there. So that really shows why in these blockchain worlds in this decentralized world
+
+Amy Detwiler  13:12  
+I just get the bender me with like, I'm gonna fork my own blockchain with hookers and hashes.
+
+Patrick Collins  13:22  
+There really is no central identity, you know, pure A, you know, might have been maliciously motivated to change. You know, this block from three however, democracy rules, right? The majority rules in the blockchain, your vmpfc will say, hey, you know, that's cute. Now, puree, but you're wrong, right? That's not right. Now, it might be a little abstract that you just look at data and you know, as typing kind of random stuff in here and think okay, yeah, that's that's data, right? That makes sense. You know, just kind of random strings in here doesn't really do anything for us. So if we actually go over to the token section here, this is where everything really starts to make a lot of
+
+Amy Detwiler  13:59  
+this makes me have newfound respect. Oh, okay, this looks complicated. I was just gonna say maybe we should get through this particular explanation and then stop for the day. I meant with the site. I was just wondering how like versioning works with IPFS. I think basically, your whatever your original version is, stays on IPFS but it points to the newest version.
+
+Patrick Collins  14:37  
+Since we have the exact same setup here with pure APB Piercey accepted the difference is instead of having kind of this this data section, we have this TX This transaction section, right. And this represents all the transactions that are happening in this block, right. So we're sending $25 from Darcy to Bingle or to Bingley force $4.27 here 1922 Right, and it's the exact same thing. So this all these transact.
+
+Amy Detwiler  15:08  
+Okay, well, considering on my computer, I can only see the first like two things, but yeah, this is definitely a pride and prejudiced reference. And I'm assuming this is a
+
+fantastic beast. I don't know if there's another Newt and then
+
+well, I am bad at this but yeah, definitely not the first reference. So there's that
+
+Patrick Collins  16:00  
+actions are gonna get hashed in the exact same way that the data is gonna get hashed and, and this is why it's so powerful because again, you know, if I want to be malicious, right, if if I want to say, hey, I really wanted to give Jane, a lot more money from Elizabeth, so I'm puree and I go back and change it to 100. Well, now, you know, not only do I as my whole blockchain get invalidated, because that was so far, so long ago, but I'm not going to match any of these other chains. Right and so my blockchain is gonna be excluded from the overall blockchain. So in let's let's go ahead and fix us. And it's the same thing if down here if I come malicious, and I want to send you know, I want Miss Audrey to have less money, maybe I want to send $1 And they go ahead and mined it. The same thing here. This hash now, this two a one is not going to match the rubies, rubies hash of VBA and it's not going to match Pierce
+
+Amy Detwiler  16:58  
+is the Audrey thing is that a my reference I'm unsure All I know is I Yeah. Cancel we don't need to see me anymore. Delete Okay, nevermind, we will just redo me. Yeah, so what are we doing? We are going over this blockchain if you change anything in any of this. This is not a site where you don't get an explanation like it's good to see but basically, you can't change any of this. If you do you get booted off the blockchain. Like survivor
+
+Patrick Collins  18:00  
+sees half of DBA as well. So the two of them are gonna say, hey, this, your blockchain is invalid. It's not matching the majority, you know, you're out, right. So that's really how these blockchains work at a low level and it all goes back to this this understanding
+
+Amy Detwiler  18:17  
+of like the redundancy. So basically, I feel like we are re explaining how BitTorrent works at this point. Or I'm, I'm heavily referencing my understanding of BitTorrent to also understand what's going on here
+
+Patrick Collins  18:40  
+is hash idea and using it in this very sophisticated manner, to kind of cryptographically prove, you know, where, where stuff lies. Now, the way that blockchain works is, instead of random stuff, putting this data section it's actually going to be solidity code in here and finding ways to interact with different blocks and different protocols that are on chain, or, as we've said before, different smart contracts. This,
+
+Amy Detwiler  19:04  
+okay, so I think we're done I think the coin base example is just basically the same as the tokens but with just Yeah, okay. So there is something new and we're done with that, and we're having a commercial. So now's a good time to stop. So today, we made our first period to account to account transaction. This has taught us that you should make sure to put your money where you want it to be in the first place. Otherwise, you're gonna have to pay a stupid fee. We have gone through this Anders brown worth demo. And it went from it escalated pretty quickly. So like, we have the hash with our data, and then that gets put onto the block and then the blockchain is sequential. So the only way that you could add a new one is if you had like a block six that hadn't been mined yet. And the distributed basically says Like if your blockchain got corrupted, then you get booted off and it's no longer like a valid reference and then tokens are the same thing except basically, it's like the bulk mine. So like every transaction is in its own block. You get shunted into the same block as other people. Because it's cheaper. Just computationally and everything. And instead of it being like random information. This should be done. Like the mind button. That will be solidity code, to make sure everything gets put into the blockchain correctly. That's what smart contracts are. For. So anyway, it's been fun. I'll see you tomorrow. We're gonna be doing this for another hour. And yeah, have a good day. Bye. Oh, I shouldn't not be saying that until I stop recording.
+
+Transcribed by https://otter.ai
